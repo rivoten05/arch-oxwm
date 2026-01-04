@@ -1224,3 +1224,74 @@ pw
 ll
 y
 gs
+ga
+gc "add icons and theme with nwg-look"
+gp
+ls
+pwd
+lsd
+z
+lsblk
+z
+ls
+mkdir mem
+ls
+pwd
+ls
+lsblk
+ls
+sudo chown rio:rio ~/mem
+ls -ld ~/mem
+sudo mount /dev/sda ~/mem
+yay -S exfat-utils
+sudo mount /dev/sda ~/mem
+y
+sudo umount /dev/sda
+lsblk
+sudo mount -o uid=$(id -u),gid=$(id -g) /dev/sda ~/mem
+posting locate themes
+z /home/rio/.local/share/posting/themes
+ls
+lsblk
+z oxwm
+v
+posting locate themes
+ls
+z /home/rio/.local/share/posting/themes
+touch light.yaml
+v light.yaml
+z ~/.config/posting/
+ls
+v
+posting
+z /home/rio/.local/share/posting/themes
+posting
+v light.yaml
+z ~/.config/posting/
+z /home/rio/.local/share/posting/themes
+ls
+z /home/rio/.local/share/posting/themes
+ls
+rm light.yaml
+posting
+y
+v config.yaml
+z /home/rio/.local/share/posting/themes
+v gruvbox-light.yaml
+z ~/.config/posting/
+posting
+v config.yaml
+z /home/rio/.local/share/posting/themes
+cp gruvbox-light.yaml ~/.config/posting/
+y
+lsd
+ll
+pwd
+ls
+cat config.yaml
+cat gruvbox-light.yaml
+z nushell
+ls
+y
+v
+gs

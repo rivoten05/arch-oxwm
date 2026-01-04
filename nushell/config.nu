@@ -64,8 +64,7 @@ $env.MANPAGER = "sh -c 'col -bx | bat -l man -p'"
 $env.config.buffer_editor = "nvim"
 $env.config.show_banner = false
 
-$env.FZF_DEFAULT_OPTS = "--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}'"
-
+$env.FZF_DEFAULT_OPTS = "--ansi --preview-window 'right:60%' --preview 'bat --color=always --style=header,grid --line-range :300 {}' --color=fg:#3c3836,bg:#fbf1c7,hl:#9d0006 --color=fg+:#3c3836,bg+:#ebdbb2,hl+:#9d0006 --color=info:#af3a03,prompt:#458588,pointer:#af3a03 --color=marker:#af3a03,spinner:#af3a03,header:#458588"
 
 # Quick directory listing with icons (simplified)
 def lsg [] {
