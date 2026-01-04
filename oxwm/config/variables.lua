@@ -3,7 +3,7 @@
 _G.modkey = "Mod1"
 _G.terminal = "kitty"
 
-_G.colors = require("themes.tokyonight")
+_G.colors = require("themes.light")
 
 _G.tags = { "", "", "" }
 

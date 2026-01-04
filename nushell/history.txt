@@ -732,3 +732,183 @@ ls
 z ~/.config/
 ls
 gs
+ga
+gc "initial commit"
+gp
+ls
+pwd
+ls
+pwd
+z kitty
+lsd
+v
+z nv
+v
+ls
+z
+ls
+cd coding/
+ls
+mkdir lua-lang
+cd lua-lang/
+git clone https://github.com/rioten353/lua_api.git
+la
+y
+v
+ls
+btm
+ls
+z api
+ls
+v
+ls
+v
+yay -Ss opencode
+yay -Sy
+ls
+pwd
+ls
+z kitty
+v
+z nv
+v
+z 
+z api
+ls
+v
+z kitty
+ls
+v
+ls
+pwd
+ls
+z api
+ll
+ls
+v
+ls
+pwd
+ll
+z kitty
+v
+ls
+ll
+pwd
+ls
+z nv
+v
+ls
+pwd
+z oxwm
+v
+z oxwm
+v
+ls
+pwd
+fastfetch
+ls
+pwd
+ll
+z kitty
+ls
+pwd
+ls
+pwd
+ls
+pwd
+ll
+pwd
+ls
+z nv
+v
+ls
+pwd
+ll
+ls
+z oxwm
+v
+ls
+pwd
+ls
+ll
+v
+z oxwm
+v
+ls
+pwd
+ls
+pwd
+ls
+z nv
+v
+z nv
+v
+z oxwm
+v
+ls
+pwd
+ls
+ll
+ls
+ls -a
+z oxwm
+v
+pwd
+ls
+pwd
+ls
+pwd
+z api
+v
+z nv
+v
+v
+ls
+pwd
+ls
+ll
+btm
+fastfetch
+y
+z rofi
+zi
+z oxwm
+v
+w
+ls
+v
+fastfetch
+spf
+y
+z ~/.config/
+v
+y
+v
+y
+ls
+ll
+pwd
+ll
+ls
+z rofi
+v
+ls
+pwd
+v
+ls
+ls | grep chrome
+y
+ls *.css
+mkdir chrome
+cd chrome/
+v userChrome.css
+..
+cp chrome ~/.config/
+cp -r chrome ~/.config/
+z
+ls
+ls -a
+cp .tmux.conf ~/.config/
+cd ~/.config/
+gss
+gs
