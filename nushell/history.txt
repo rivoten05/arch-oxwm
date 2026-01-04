@@ -1374,3 +1374,10 @@ ll
 z ~/.config/
 ll
 gs
+ga
+gc "add yazi theme"
+gp
+y
+fastfetch
+z ~/.config/
+gs
