@@ -664,3 +664,32 @@ git init
 git status
 git ass
 gi
+ga
+gc -m "initial commit"
+gc "initial commit"
+git config --global user.email "rivo@gmail.com"
+git config --global user.name "rivo"
+gc "initial commit"
+ls
+ping -c 5 github.com
+ls
+git branch -M main
+git push -u origin main
+git push
+git push -u origin main
+git push --set-upstream origin main
+git remote remove origin
+git push --set-upstream origin main
+z nushell
+ls
+v history.txt
+gss
+git status
+git diff
+git diff | cat
+gs
+z
+cd .config/
+gs
+v .gitignore
+gs
