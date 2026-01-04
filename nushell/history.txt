@@ -1,0 +1,666 @@
+ls
+yay -S zoxide ripgrep fd lsd fzf lua51 loarocks
+e
+exit
+ls
+wd
+pwd
+ls
+lsd
+pwd
+ls
+pwd
+lsd
+btop
+sys mem
+yay -S dysk
+dysk
+yay -S firefox
+ls
+sys mem
+pwd
+firefox
+cd ~/.config
+ls
+pwd
+ls
+p
+git init
+git status
+git add .
+git commit -m "first commit"
+git config --global user.email "rivo@gmail.com"
+git config --global user.name "rivo"
+git commit -m "first commit"
+git status
+ls
+touch .gitignore
+nvim .gitignore
+git status
+nvim .gitignore
+ls
+pwd
+ls
+pwd
+ls
+btm
+y
+z ~/.config/nvim/
+zi
+y
+z
+ls
+y
+z
+ls
+pwd
+dysk
+df -h
+ls
+lsd
+l
+yay -S lsd
+lsd
+pwd
+l
+ll
+pwd
+fastfetch
+pwd
+ls
+pwd
+z ~/.config/oxwm/
+ls
+v
+yay -S noto-fonts-emoji
+v
+ls
+pwd
+ls
+pwd
+dysk
+ls
+pwd
+fastfetch
+xinput list
+yay -S xorg-xinput
+xinput list
+xinput set-prop "ELAN Touchpad" "libinput Tapping Enable" 1 
+xinput set-prop "Elan Touchpad" "libinput Tapping Enable" 1 
+xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 1 
+z
+ls
+la
+nvim ~/.xinitrc
+ls
+la
+nvim ~/.xinitrc
+la
+rm .xinitrc
+ls
+pwd
+ls
+pwd
+ls
+pwd
+ls
+xinput set-prop "Elan Touchpad" "libinput Tapping Enabled" 1 
+ls
+pwd
+ls
+yay -S firefox
+ip a
+ip add
+ip ad
+ip
+ls
+pwd
+ls
+sudo mkdir -p /etc/X11/xorg.conf.d
+sudo nvim /etc/X11/xorg.conf.d/30-touchpad.conf
+sudo reboot
+ls
+pwd
+cd ~/.config/oxwm/
+ls
+v
+yay -S bat
+cat config.lua
+cd ~/.config/oxwm/
+ls
+yay -S wget
+yay -S xclip
+v
+cd ~/.config/oxwm/
+ls
+nvim config.lua
+z ~/.config/oxwm/
+v
+ls
+pwd
+xmodmap -e "keysym XF86Search = Super_L"
+xmodmap
+yls
+ls
+z Downloads/
+z Do
+ls
+cat txt.txt
+z ~/.config/oxwm/
+nvim txt.txt
+ls
+v
+ls
+pwd
+ls
+cat config.lua
+ls
+cp config.lua ~/Downloads/
+v
+ls
+pwd
+ls
+y
+z
+z Downloads/
+ls
+nvim config.lua
+v
+z Downloads/
+z oxwm
+nvim config.lua
+v
+z oxwm
+yay -S xwallpaper
+ls
+mkdir walls
+v
+z kity
+z ~/.config/kitty/
+z kitty
+v
+v
+cat kitty.conf
+cat cyberdream.conf
+kitty @ ser-background-opacity 0
+kitty @ set-background-opacity 0
+y
+kitty @ ls
+kitty @ reload-config
+kitty @ reload
+kitty @ 
+ls
+pwd
+ls
+pwd
+ls
+dysk
+sys mem
+sys disks
+ls
+pwd
+ls
+cd ~/.config/oxwm/
+v
+ls
+cd
+cd Downloads/
+wget https://nodejs.org/dist/v24.12.0/node-v24.12.0-linux-x64.tar.xz
+ls
+7zz node-v24.12.0-linux-x64.tar.xz
+7zip node-v24.12.0-linux-x64.tar.xz
+7z x node-v24.12.0-linux-x64.tar.xz
+ls
+7z x node-v24.12.0-linux-x64.tar
+y
+ls
+rm node-v24.12.0-linux-x64 node-v24.12.0-linux-x64.tar
+rm -r node-v24.12.0-linux-x64 node-v24.12.0-linux-x64.tar
+rm -r node-v24.12.0-linux-x64/
+ls
+tar -xzf node-v24.12.0-linux-x64.tar.xz
+ls
+tar -xJf node-v24.12.0-linux-x64.tar.xz
+ls
+y
+ls
+rm node-v24.12.0-linux-x64.tar.xz
+ls
+rm oxwm/
+rm -r oxwm txt.txt
+ls
+pwd
+z
+z kitty
+node -v
+npm -v
+y
+z
+ls
+curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh<\n>
+cargo
+pwd
+ls
+dysk
+ls
+pwd
+ls
+cd ~/.config/oxwm/
+v
+ls
+pwd
+ls
+dysk
+ls
+sf -h
+df -h
+pwd
+ls
+du
+pwd
+ls
+ping google.com
+y
+ls
+cd scripts/
+ls
+rm network.sh
+wget https://github.com/zenfulten/nixos/blob/master/config/qtile/scripts/network.sh
+ls
+y
+rm network.sh
+z
+y
+ls
+./network.sh
+chmod +x *.sh
+ls
+./network.sh
+./bluetooth.sh
+./emoji.sh
+yay -S wl-copy
+yay -S wl-clipboard-x11,
+yay -S wl-clipboard-x11
+ls
+xclip -selection clipboard
+z oxwm
+cd scripts/
+ls
+./emoji.sh
+yay -S cliphist
+nvim emoji.sh
+ls
+chmod +x cliphist.sh
+z oxwm
+v
+cd scripts/
+z scripts
+ls
+./cliphist.sh
+v
+./cliphist.sh
+cd
+ls
+cat cliphist.sh
+cat ../config.lua
+cat ../config/autostart.lua
+y
+z scripts
+./cliphist.sh
+ls
+z scripts
+./cliphist.sh
+ls
+cat cliphist.sh
+./cliphist.sh
+cat cliphist.sh
+./cliphist.sh
+cat cliphist.sh
+./cliphist.sh
+cliphist list
+rm -rf ~/.cache/cliphist/
+cliphist list
+z scripts
+./cliphist.sh
+cliphist list
+./cliphist.sh
+y
+yay -Rns cliphist
+ls
+y
+yay -S tmux
+ls
+pwd
+ls
+sys mem
+ls
+z scripts
+ls
+p
+y
+v
+y
+z scripts
+y
+z scripts
+v
+ls
+./emoji.sh
+./powermenu.sh
+z config
+ls
+nvim ke
+nvim keybinds.lua
+ls
+pwd
+z nv
+v
+ls
+pwd
+ls
+yay -S mvp
+yay -S mpv
+ls
+pwd
+sys mem
+ls
+pwd
+ls
+pwd
+ls
+pwd
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+wpctl
+brightnessctl set +5%
+yay -S brightnessctl
+brightnessctl set +5%
+z config
+v
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+wpctl set-volume @DEFAULT_AUDIO_SINK@
+wpctl get-volume @DEFAULT_AUDIO_SINK@
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+wpctl get-volume @DEFAULT_AUDIO_SINK@
+z config
+v
+wpctl get-volume @DEFAULT_AUDIO_SINK@
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+
+wpctl get-volume @DEFAULT_AUDIO_SINK@
+z config
+wpctl get-volume @DEFAULT_AUDIO_SINK@
+v
+ls
+pwd
+z
+z nv
+p
+v
+s
+ls
+z
+ls
+mkdir coding
+z coding/
+ls
+mkdir node-js
+cd node-js/
+git clone https://github.com/rivoten05/Algo-javascript
+cd Algo-javascript/
+ls
+y
+ls
+npm i
+npm i -d jest
+npm install --save-dev jest
+y
+npm test anagrams/test.js
+cat package.json
+v
+npm test anagrams/test.js
+ls
+npm test anagrams/test.js
+v
+ls
+sys mem
+y
+bash
+sudo timeshift --create --comments "completed setup oxwm" --tags o
+sudo timeshift --list
+ls
+pwd
+ping -c 5 github.com
+unzip
+ls
+z
+cd Downloads/
+ls
+unzip dartsdk-linux-x64-release.zip
+y
+ls
+z nushell
+v
+dart --version
+dysk
+pwd
+ls
+z nv
+v
+z nv
+v
+ls
+pwd
+ll
+l
+ll
+v
+z
+nvim .tmux.conf
+yay -S tmux
+which nu
+ls /etc/shells
+ls /etc/shells/
+ls /etc/shells
+which nu
+tmux
+nvim .tmux.conf
+tmux
+tmux
+ls
+pwd
+sys mem
+sys disks
+pwd
+ls
+y
+ls
+ls -a
+ls
+du
+y
+z
+ls
+p
+l
+ll
+y
+ls
+rm dartsdk-linux-x64-release.zip
+ls
+z
+z nv
+v
+python --version
+yay -S uv
+uv tools install posting
+uv tool install posting
+posting
+cd nv
+z nv
+v
+dysk
+ls
+p
+z
+ls
+p
+l
+ll
+ls
+pwd
+ls
+python --version
+uv --version
+uv
+uv python
+uv python list
+python --version
+java -v
+ls
+pwd
+sudo nvim /etc/ly/config.ini
+ls
+pwd
+ls
+z nv
+v
+ls
+ping -c 5 github.com
+yay -Sy
+yay -Syu
+z nv
+v
+y
+la
+pwd
+ls
+pwd
+ls
+pwd
+y
+ls
+mkdir py-code
+cd py-code/
+mkdir api
+cd api/
+uv venv
+uv init
+ls
+pip list
+uv pip list
+overlay use .venv/bin/activate.nu 
+ls
+uv pip list
+uv add "fastapi[standard]"
+uv pip list
+uv run fastapi dev src/app/main.py --host 127.0.0.1 --port 8000
+ls
+uv run fastapi dev main.py --host 127.0.0.1 --port 8000
+v
+ls
+ping -c 5 github.com
+yay -Sy
+yay -S Maple-Mono-NF
+yay -S maplemono-df-unhinted
+lsblk
+ls
+mkdir .fonts
+y
+ls
+unxip MapleMono-NF.zip
+unzip MapleMono-NF.zip
+ls
+mv *.ttf ~/.fonts/
+ls
+fc-cache -f -v
+kitty +list-fonts
+z kitty
+v
+z kitty
+kitty +list-fonts
+ls
+pwd
+z nv
+v
+cd walls
+ls
+ll
+v
+kitty +list-fonts --psnames | grep "Maple Mono"
+z kitty
+ls
+pwd
+ls
+pwd
+ls
+z nv
+v
+ls
+pwd
+ll
+ls
+ll
+z nv
+v
+kitty +list-fonts --psnames | grep "Maple Mono"
+z nv
+v
+ls
+ll
+pwd
+cd nv
+v
+z nv
+v
+ls
+ll
+ls
+ll
+ls
+ll
+ls
+ll
+ls
+ll
+ls
+ll
+ls
+ll
+z nv
+v
+v
+y
+v
+ls
+y
+v
+yay -Q | grep "Jet"
+yay -Q 
+yay -Q | grep "ttf"
+yay -Rns ttf-jetbrains-mono-nerd
+z nv
+v
+fastfetch
+z ki
+z kitty.conf
+z kitty
+fastfetch
+kitty +list-fonts --psnames | grep "Maple Mono"
+v
+ls
+fastfetch
+ls
+z nv
+v
+z
+z 
+du
+ls
+cd .config/
+ls
+git status
+git init
+git config --global init.defaultBranch main
+git init
+git status
+git ass
+gi
