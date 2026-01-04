@@ -912,3 +912,199 @@ cp .tmux.conf ~/.config/
 cd ~/.config/
 gss
 gs
+ga
+gc "add guruvbox theme"
+gp
+ls
+pwd
+pwd
+ll
+z api
+v
+y
+z nv
+v
+ls
+gr
+gs
+gr lua/plugins/nvim-autopairs.lua
+v
+gs
+pwd
+ls
+v
+gs
+git diff | cat
+gss
+v
+gss
+3v
+v
+gss
+v
+gss
+v
+ls
+y
+gss
+gs
+gr nvim-autopairs.lua
+v
+gr nvim-autopairs.lua
+ls
+v
+ls
+gr nvim-autopairs.lua
+v
+cargo --version
+ls
+gr nvim-autopairs.lua
+v
+z ~/.local/share/nvim/lazy/
+ls
+rm -r blink.pairs/
+git clone https://github.com/saghen/blink.pairs.git
+ls
+v
+rm -r ~/.local/share/nvim/lazy/blink.pairs
+v
+y
+gr nvim-autopairs.lua
+ls
+v
+gss
+ls
+rm -r ~/.local/share/nvim/lazy/blink.pairs
+z
+cd ~/.config/
+gss
+pwd
+dysk
+du
+z
+du
+dysk
+du
+y
+du
+y
+du
+z
+ls
+cargo --version
+which cargo
+y
+ls
+cargo new cli
+cd cli/
+v
+z nv
+x nv
+z nv
+v
+v
+gs
+ga
+gc "add guruvbox theme"
+gp
+z nv
+v
+gss
+ga
+gc "add guruvbox theme"
+gp
+ls
+pwd
+btm
+z nv
+v
+z api
+ls
+y
+ls
+lua main.lua
+luarocks main.lua
+ls
+pwd
+ls
+p
+z oxwm
+v
+ls
+y
+xwallpaper --zoom girls.jpg
+xwallpaper --zoom gruvbox.png
+ls
+pwd
+y
+ls
+pwd
+ls
+z oxwm
+gss
+gs
+ga
+gc "add guruvbox theme"
+v
+ls
+z ~/.config/
+posting
+y
+z pi
+z api
+ls
+overlay use .venv/bin/activate.nu 
+ls
+../../py-code/api/
+overlay use .venv/bin/activate.nu 
+ls
+uv run fastapi dev main.py --host 127.0.0.1 --port 8000
+ls
+deactivate
+ls
+posting
+ls
+pwd
+ls
+ll
+pwd
+pp
+ls
+z nushell
+z ~/.config/
+gs
+gd
+z ~/.config/
+gd
+ls
+gd
+gd | cat
+gd
+git diff | cat
+gl
+gl | cat
+c
+cls
+hist
+time
+time --help
+l
+ll
+la
+lla
+lt
+tree
+lt
+ip
+ping github.com
+fzf
+y
+d
+cd d
+z
+ls
+cd d
+nvims
+v
+y
+gss
