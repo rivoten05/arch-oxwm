@@ -1,18 +1,18 @@
 ---@module 'oxwm'
 
 local blocks = {
-	-- oxwm.bar.block.static({
-	-- 	text = " │  ",
-	-- 	interval = 999999999,
-	-- 	color = colors.sep,
-	-- 	underline = false,
-	-- }),
-	-- oxwm.bar.block.ram({
-	-- 	format = "󰍛 Ram: {used}/{total} GB",
-	-- 	interval = 5,
-	-- 	color = colors.light_blue,
-	-- 	underline = true,
-	-- }),
+	oxwm.bar.block.static({
+		text = " │  ",
+		interval = 999999999,
+		color = colors.sep,
+		underline = false,
+	}),
+	oxwm.bar.block.ram({
+		format = "󰍛 Ram: {used}/{total} GB",
+		interval = 5,
+		color = colors.light_blue,
+		underline = true,
+	}),
 	oxwm.bar.block.static({
 		text = " │  ",
 		interval = 999999999,
