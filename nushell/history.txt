@@ -693,3 +693,42 @@ cd .config/
 gs
 v .gitignore
 gs
+ga
+gss
+gs
+gc "initial commit"
+gss
+git diff | cat
+ls
+pwd
+ls
+pwd
+ls
+pwd
+gss
+p
+y
+v
+zi
+v
+ls
+ll
+z kitty
+ls
+v
+cd..
+..
+ls
+v
+y
+fc-cache -f -v
+z oxwm
+v
+z oxwm
+v
+ls
+pwd
+ls
+z ~/.config/
+ls
+gs

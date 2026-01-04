@@ -29,7 +29,7 @@ local colors = require("tokyonight")
 local tags = { "", "", "" } -- Example of nerd font icon tags
 
 -- Font for the status bar (use "fc-list" to see available fonts)
-_G.bar_font = "Maple Mono NF Propo:style=Italic:size=10"
+local bar_font = "JetBrainsMono Nerd Font"
 
 -- Define your blocks
 -- Similar to widgets in qtile, or dwmblocks
