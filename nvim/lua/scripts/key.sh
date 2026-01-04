@@ -2,7 +2,7 @@
 #!/bin/bash
 
 # Rofi theme
-rofi_theme="$HOME/.config/rofi/themes/clipboard.rasi" # Make sure this path is correct for your system
+rofi_theme="$HOME/.config/rofi/config.rasi" # Make sure this path is correct for your system
 msg='** Neovim Keybinds ** nvim 🚀 Search or press Enter to copy'
 
 # Check if rofi is already running
@@ -16,7 +16,7 @@ fi
 sed '1,/^# # NVIM_KEYBINDS # #$/d' "$0" | \
 rofi -i -dmenu -mesg "$msg" -config "$rofi_theme" | \
 awk '{print $1}' | \
-wl-copy
+xclip -selection clipboard
 
 exit
 

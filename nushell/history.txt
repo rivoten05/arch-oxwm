@@ -1108,3 +1108,44 @@ nvims
 v
 y
 gss
+ga
+gc "add fonts" 
+ls
+gss
+dysk
+sys disks
+ls
+pwd
+z
+ls
+pwd
+ls
+java -version
+y
+ls
+pwd
+ll
+z nv
+v
+y
+ls
+cd scripts/
+ls
+./key.sh
+z oxwm
+./key.sh
+cd scripts/
+./key.sh
+v
+awk
+ls
+pwd
+z tofi
+z rofi
+ls
+./key.sh
+v 
+ls
+gss
+z ~/.config/
+gs
