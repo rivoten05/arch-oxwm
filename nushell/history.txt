@@ -1295,3 +1295,37 @@ ls
 y
 v
 gs
+ga
+gc "add icons and theme with nwg-look"
+gp
+z nv
+ls
+cat init.lua
+mkdir -p ~/.config/lsd
+mkdir ~/.config/lsd
+z ~/.config/lsd/
+ls
+nano ~/.config/lsd/colors.yaml
+v ~/.config/lsd/colors.yaml
+l
+ll
+ls
+pwd
+ll
+pwd
+la
+v
+btm
+z yazi
+ls
+y
+ls
+rm theme.toml
+mkdir ~/.config/yazi/themes
+ls
+nvim ~/.config/yazi/theme.toml
+y
+ls
+gs
+z ~/.config/
+gs

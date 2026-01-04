@@ -41,13 +41,12 @@ alias c = clear
 alias time = timeit 
 
 # File Operations
-alias l = lsd
-alias ll = lsd -l
-alias la = lsd -a
-alias lla = lsd -la
-alias lt = lsd --tree
+alias l = lsd --color always --icon always
+alias ll = lsd -l --color always --icon always
+alias la = lsd -a --color always --icon always
+alias lla = lsd -la --color always --icon always
+alias lt = lsd --tree --color always --icon always
 alias cat = bat
-alias tree = eza -T
 alias rm-safe = rm -I
 
 # Network
@@ -59,7 +58,7 @@ alias wget = wget -c  # Continue interrupted downloads
 # Environment variables
 $env.EDITOR = "nvim"
 $env.VISUAL = "nvim"
-$env.BAT_THEME = "TwoDark"
+$env.BAT_THEME = "gruvbox-light"
 $env.MANPAGER = "sh -c 'col -bx | bat -l man -p'"
 $env.config.buffer_editor = "nvim"
 $env.config.show_banner = false

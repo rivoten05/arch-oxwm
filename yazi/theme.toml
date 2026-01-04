@@ -1,186 +1,28 @@
-# vim:fileencoding=utf-8:foldmethod=marker
+# ~/.config/yazi/theme.toml
 
-# : Manager {{{
+[manager]
+cwd = { fg = "#458588" } # Blue
 
-[mgr]
-cwd = { fg = "#458588" } # blue
-
-# Hovered
-hovered         = { bg = "#d5c4a1", bold = true } # sep (Light2)
+# Hovered item
+hovered         = { fg = "#3c3836", bg = "#ebdbb2" }
+# Selected items
 preview_hovered = { underline = true }
 
-# Find
-find_keyword  = { fg = "#cc241d", bold = true, italic = true, underline = true } # red
-find_position = { fg = "#8f3f71", bg = "reset", bold = true, italic = true }    # purple
-
-# Marker
-marker_copied   = { fg = "#98971a", bg = "#98971a" } # green
-marker_cut      = { fg = "#cc241d", bg = "#cc241d" } # red
-marker_marked   = { fg = "#458588", bg = "#458588" } # blue
-marker_selected = { fg = "#b16286", bg = "#b16286" } # lavender
-
-# Count
-count_copied   = { fg = "#fbf1c7", bg = "#98971a" } # bg on green
-count_cut      = { fg = "#fbf1c7", bg = "#cc241d" } # bg on red
-count_selected = { fg = "#fbf1c7", bg = "#b16286" } # bg on lavender
-
-# Border
-border_symbol = "│"
-border_style  = { fg = "#928374" } # grey
-
-# : }}}
-
-
-# : Tabs {{{
-
-[tabs]
-active   = { fg = "#fbf1c7", bg = "#076678", bold = true } # bg on light_blue
-inactive = { fg = "#076678", bg = "#d5c4a1" }             # light_blue on sep
-
-# : }}}
-
-
-# : Mode {{{
-
-[mode]
-
-normal_main = { fg = "#fbf1c7", bg = "#458588", bold = true } # bg on blue
-normal_alt  = { fg = "#458588", bg = "#d5c4a1" }             # blue on sep
-
-# Select mode
-select_main = { fg = "#fbf1c7", bg = "#689d6a", bold = true } # bg on cyan
-select_alt  = { fg = "#689d6a", bg = "#d5c4a1" }             # cyan on sep
-
-# Unset mode
-unset_main = { fg = "#fbf1c7", bg = "#cc241d", bold = true } # bg on red
-unset_alt  = { fg = "#cc241d", bg = "#d5c4a1" }             # red on sep
-
-# : }}}
-
-
-# : Status bar {{{
-
 [status]
-# Permissions
-perm_sep   = { fg = "#928374" } # grey
-perm_type  = { fg = "#458588" } # blue
-perm_read  = { fg = "#98971a" } # green
-perm_write = { fg = "#cc241d" } # red
-perm_exec  = { fg = "#689d6a" } # cyan
+separator_open  = ""
+separator_close = ""
 
-# Progress
-progress_label  = { fg = "#fbf1c7", bold = true }
-progress_normal = { fg = "#458588", bg = "#d5c4a1" }
-progress_error  = { fg = "#cc241d", bg = "#d5c4a1" }
-
-# : }}}
-
-
-# : Pick {{{
-
-[pick]
-border   = { fg = "#458588" }
-active   = { fg = "#8f3f71", bold = true } # purple
-inactive = {}
-
-# : }}}
-
-
-# : Input {{{
-
-[input]
-border   = { fg = "#458588" }
-title    = {}
-value    = {}
-selected = { reversed = true }
-
-# : }}}
-
-
-# : Completion {{{
-
-[cmp]
-border = { fg = "#458588" }
-
-# : }}}
-
-
-# : Tasks {{{
-
-[tasks]
-border  = { fg = "#458588" }
-title   = {}
-hovered = { fg = "#8f3f71", bold = true }
-
-# : }}}
-
-
-# : Which {{{
-
-[which]
-mask            = { bg = "#d5c4a1" }
-cand            = { fg = "#689d6a" } # cyan
-rest            = { fg = "#928374" } # grey
-desc            = { fg = "#8f3f71" } # purple
-separator       = "  "
-separator_style = { fg = "#928374" }
-
-# : }}}
-
-
-# : Help {{{
-
-[help]
-on      = { fg = "#689d6a" }
-run     = { fg = "#8f3f71" }
-hovered = { reversed = true, bold = true }
-footer  = { fg = "#3c3836", bg = "#d5c4a1" } # fg on sep
-
-# : }}}
-
-
-# : Spotter {{{
-
-[spot]
-border   = { fg = "#458588" }
-title    = { fg = "#458588" }
-tbl_col  = { fg = "#689d6a" }
-tbl_cell = { fg = "#8f3f71", bg = "#d5c4a1" }
-
-# : }}}
-
-
-# : Notification {{{
-
-[notify]
-title_info  = { fg = "#98971a" }
-title_warn  = { fg = "#cc241d" }
-title_error = { fg = "#cc241d", bold = true }
-
-# : }}}
-
-
-# : File-specific styles {{{
+[status.mode]
+normal = { bg = "#458588", fg = "#fbf1c7", bold = true }
+select = { bg = "#98971a", fg = "#fbf1c7", bold = true }
+unset  = { bg = "#b16286", fg = "#fbf1c7", bold = true }
 
 [filetype]
-
 rules = [
-    # Image
-    { mime = "image/*", fg = "#689d6a" }, # cyan
-    # Media
-    { mime = "{audio,video}/*", fg = "#b16286" }, # lavender
-    # Archive
-    { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#8f3f71" }, # purple
-    # Document
-    { mime = "application/{pdf,doc,rtf}", fg = "#98971a" }, # green
-    # Virtual file system
-    { mime = "vfs/{absent,stale}", fg = "#928374" },
-    # Fallback
-    { url = "*", fg = "#3c3836" }, # fg
-    { url = "*/", fg = "#076678" }, # light_blue
-    # TODO: remove
-    { name = "*", fg = "#3c3836" },
-    { name = "*/", fg = "#076678" }
+    { mime = "image/*", fg = "#b16286" }, # Purple
+    { mime = "video/*", fg = "#b16286" },
+    { mime = "audio/*", fg = "#b16286" },
+    { mime = "text/*",  fg = "#3c3836" },
+    { name = "*.zip",   fg = "#d79921" }, # Yellow
+    { name = "*.tar",   fg = "#d79921" },
 ]
-
-# : }}}
