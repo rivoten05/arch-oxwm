@@ -1149,3 +1149,19 @@ ls
 gss
 z ~/.config/
 gs
+ga
+gc "improve rofi" 
+ls
+gs
+ls
+gss
+ga
+gc "improve rofi" 
+ping github.com
+v
+ls
+y
+v
+gs
+z ~/.config/
+gs
