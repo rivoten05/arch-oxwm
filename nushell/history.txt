@@ -1329,3 +1329,48 @@ ls
 gs
 z ~/.config/
 gs
+ga
+gc "add yazi theme"
+gp
+y
+fastfetch
+touch ~/.config/bottom/bottom.toml
+nvim ~/.config/bottom/bottom.toml
+btm
+touch ~/.config/fastfetch/config.jsonc
+mkdir ~/.config/fastfetch/
+nvim ~/.config/fastfetch/config.jsonc
+fastfetch
+ls
+nvim ~/.config/fastfetch/config.jsonc
+fastfetch
+y
+fastfetch
+y
+ls
+cp ~/Downloads/arch.png ./
+v
+fa
+fastfetch
+fastfetch
+ls
+pwd
+ll
+y
+fastfetch
+v
+ls
+fastfetch
+ls
+pwd
+ll
+pp
+ls
+l
+ll
+ls
+pwd
+ll
+z ~/.config/
+ll
+gs
