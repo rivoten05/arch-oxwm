@@ -3,7 +3,7 @@
   bg: #fbf1c7; 
   
   /* Hover/Accent (Gruvbox Purple) */
-  hv: #b16286; 
+  hv: #689d6a; 
   
   /* Primary/Foreground (Gruvbox Dark0) */
   primary: #d5c4a1; 

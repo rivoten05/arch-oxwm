@@ -1381,3 +1381,26 @@ y
 fastfetch
 z ~/.config/
 gs
+ga
+gc "add yazi theme"
+gp
+y
+ls
+pwd
+ls
+pwd
+ll
+lla
+v
+ls
+btm
+ls
+pwd
+fastfetch
+pwd
+wd
+z rofi
+v
+gs
+z
+z ~/.config/
