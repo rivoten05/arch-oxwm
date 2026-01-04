@@ -1165,3 +1165,62 @@ v
 gs
 z ~/.config/
 gs
+ga
+gc "add dressing pluguns"
+gp
+gs
+ga
+gc "add dressing pluguns"
+gp
+ls
+pwd
+ll
+pwd
+fzf
+ls
+tmux
+y
+ping github.com
+ls
+pwd
+ls
+pwd
+yay -Sy
+yay -Syu
+sudo timeshift --list
+sudo timeshift --create --comments "updated packages" --tags o
+yay -Ss nwg-look
+y
+ls
+rm `Gruvbox-B-MB-light.tar(1).xz`
+ls
+tar -xJf Gruvbox-B-MB-light.tar.xz
+y
+yay -S nwg-look
+ls
+pwd
+fastfetch
+ls
+pwd
+y
+ls
+tar -xJf Bibata-Modern-Ice.tar.xz
+ls
+tar -xvf gruvbox-plus-icon-pack.6.3.0.tar.gz
+ls
+y
+ls
+y
+dysk
+ls
+pwd
+ll
+pwd
+ll
+ls
+pwd
+ll
+pw
+ll
+y
+gs
