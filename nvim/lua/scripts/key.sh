@@ -61,7 +61,6 @@ Space+fo                    : Find Old Files
 Space+fz                    : Fuzzy Find in Current Buffer
 Space+fh                    : Find Help Tags
 Space+ft                    : Find string under cursor
-Space+fs                    : Find Symbols
 
 🛠️ LSP
 Space+ld                    : LSP Definition
