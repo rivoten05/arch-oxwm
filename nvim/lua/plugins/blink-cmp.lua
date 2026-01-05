@@ -1,6 +1,6 @@
 return {
 	"saghen/blink.cmp",
-	event = "InsertEnter",
+	event = { "BufReadPre", "BufNewFile" },
 	version = "v0.*",
 	dependencies = {
 		{ "saghen/blink.compat", opts = { enable_events = true } },
