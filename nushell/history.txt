@@ -1494,3 +1494,46 @@ notify-send "Hello World" "This is a test notification."
 pkill dunst; dunst
 z ~/.config/
 gs
+ga
+gc "add dunst"
+gp
+v dunstrc
+notify-send "Image Test" "This is how your theme looks with an icon." -i /usr/share/icons/hicolor/48x48/apps/firefox.png
+ls
+sudo v /etc/ly/config.ini
+sudo nvim /etc/ly/config.ini
+cat /etc/ly/config.ini
+sudo nvim /etc/ly/config.ini
+udo systemctl restart ly
+sudo systemctl restart ly
+sudo nvim /etc/ly/config.ini
+notify-send "Image Test" "This is how your theme looks with an icon." -i /usr/share/icons/hicolor/48x48/apps/firefox.png
+s
+ls
+sudo nvim /etc/ly/config.ini
+z ~/.config/
+gs
+ls
+z nv
+v
+ping github.com
+jq
+ls
+ping github.com
+z nv
+v
+ls
+pwd
+z
+z nv
+ping github.com
+z nv
+v
+ls
+ping github.com
+ls
+pwd
+z nv
+v
+z ~/.config/
+gs

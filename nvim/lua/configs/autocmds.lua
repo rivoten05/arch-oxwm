@@ -189,13 +189,12 @@ vim.api.nvim_create_autocmd({ "InsertLeave" }, {
 })
 
 vim.api.nvim_create_user_command("ToggleContrast", function()
-	local current = vim.g.high_contrast or false
-	if current then
-		vim.cmd("colorscheme catppuccin")
-		vim.g.high_contrast = false
+	if vim.g.gruvbox_contrast_dark == "hard" then
+		vim.g.gruvbox_contrast_dark = "medium"
+		print("Contrast: Medium")
 	else
-		vim.cmd("hi Normal guibg=#000000 guifg=#ffffff")
-		vim.cmd("hi Comment guifg=#888888")
-		vim.g.high_contrast = true
+		vim.g.gruvbox_contrast_dark = "hard"
+		print("Contrast: Hard")
 	end
+	vim.cmd("colorscheme gruvbox")
 end, {})
