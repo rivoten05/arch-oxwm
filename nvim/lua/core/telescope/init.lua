@@ -24,6 +24,9 @@ function M.setup()
 	})
 
 	-- Load extensions
+	telescope.load_extension("fzf")
+	telescope.load_extension("ui-select")
+
 	extensions.setup(telescope)
 end
 
