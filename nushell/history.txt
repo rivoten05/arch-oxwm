@@ -1477,3 +1477,20 @@ ga
 gc "add dunst"
 z ~/.config/
 gs
+ga
+gc "add dunst"
+gp
+v
+pkill dunst; dunst
+ls
+notify-send "Hello World" "This is a test notification."
+v
+z ~/.config/dunst/
+gs
+z kitty
+git diff | cat
+gr kitty.conf
+notify-send "Hello World" "This is a test notification."
+pkill dunst; dunst
+z ~/.config/
+gs
