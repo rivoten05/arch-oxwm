@@ -9,6 +9,7 @@ function M.setup()
 		fuzzy = {
 			use_frecency = true,
 			use_proximity = true,
+			implementation = "prefer_rust_with_warning",
 			sorts = { "score", "sort_text" },
 		},
 		completion = {
