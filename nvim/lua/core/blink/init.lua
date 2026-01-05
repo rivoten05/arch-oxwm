@@ -7,6 +7,10 @@ function M.setup()
 		snippets = require("core.blink.snippets"),
 		sources = require("core.blink.sources"),
 		completion = {
+			ghost_text = {
+				enabled = true,
+				show_without_selection = true,
+			},
 			menu = {
 				border = "rounded",
 				draw = {
