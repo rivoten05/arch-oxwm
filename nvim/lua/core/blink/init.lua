@@ -6,6 +6,11 @@ function M.setup()
 		appearance = require("core.blink.appearance"),
 		snippets = require("core.blink.snippets"),
 		sources = require("core.blink.sources"),
+		fuzzy = {
+			use_frecency = true,
+			use_proximity = true,
+			sorts = { "score", "sort_text" },
+		},
 		completion = {
 			ghost_text = {
 				enabled = true,
@@ -17,6 +22,20 @@ function M.setup()
 					columns = {
 						{ "label", "label_description", gap = 1 },
 						{ "kind_icon", "kind", gap = 1 },
+					},
+					components = {
+						kind_icon = {
+							ellipsis = false,
+							text = function(ctx)
+								return ctx.kind_icon .. ctx.icon_gap
+							end,
+							highlight = function(ctx)
+								if ctx.item.source_name == "codeium" then
+									return "BlinkCmpKindCodeium"
+								end
+								return "BlinkCmpKind" .. ctx.kind
+							end,
+						},
 					},
 				},
 			},
