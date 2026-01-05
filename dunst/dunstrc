@@ -1,0 +1,22 @@
+[global]
+    frame_color = "#928374"      # Using 'grey' for the frame
+    separator_color = "#d5c4a1"  # Using 'sep' for the separator
+
+[base16_low]
+    msg_urgency = "low"
+    background = "#fbf1c7"      # bg (Light0)
+    foreground = "#928374"      # grey
+    timeout = 3
+
+[base16_normal]
+    msg_urgency = "normal"
+    background = "#fbf1c7"      # bg (Light0)
+    foreground = "#3c3836"      # fg (Dark0)
+    timeout = 3
+
+[base16_critical]
+    msg_urgency = "critical"
+    background = "#cc241d"      # red
+    foreground = "#fbf1c7"      # bg (Light0) for high contrast
+    frame_color = "#fb4934"     # Brighter red for the frame
+    timeout = 3

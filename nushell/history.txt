@@ -1404,3 +1404,76 @@ v
 gs
 z
 z ~/.config/
+ga
+gc "add yazi theme"
+gp
+y
+dy
+dysk
+ls
+pwd
+ls
+y
+ls
+pwd
+ll
+pwd
+ll
+pwd
+lla
+d
+c
+p
+d
+~/.Downloads
+~/Downloads
+ls
+gcl https://github.com/AllJavi/tartarus-grub.git
+ls
+cd tartarus-grub/
+ls
+sudo timeshift --create --comments "before changing grub theme" --tags o
+yay -Syu
+ls
+lt
+sudo cp tartarus -r /usr/share/grub/themes/
+sudo vim /etc/default/grub
+sudo nvim /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+~/Downloads
+ls
+du
+pwd
+notify-send
+yay -S ibnotify dunst
+yay -S libnotify dunst
+notify-send "hello"
+z oxwm
+v
+notify-send "Hello World" "This is a test notification."
+mkdir ~/.config/dunst
+cp /etc/dunst/dunstrc ~/.config/dunst/dunstrc
+notify-send "Hello World" "This is a test notification."
+z ~/.config/dunst/dunstrc
+z ~/.config/dunst/
+v dunstrc
+notify-send "Hello World" "This is a test notification."
+z ~/.config/dunst/
+v
+z oxwm
+v
+z ~/.config/dunst/
+notify-send "Hello World" "This is a test notification."
+pkill dunst; dunst
+v dunstrc
+notify-send "Hello World" "This is a test notification."
+pkill dunst; dunst
+notify-send "Hello World" "This is a test notification."
+z kitty
+gs
+ga
+gc "add dunst"
+ga
+gc "add dunst"
+z ~/.config/
+gs
