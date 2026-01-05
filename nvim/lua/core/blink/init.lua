@@ -13,6 +13,10 @@ function M.setup()
 			sorts = { "score", "sort_text" },
 		},
 		completion = {
+			trigger = {
+				prefetch_on_insert = false,
+				show_on_trigger_character = true,
+			},
 			ghost_text = {
 				enabled = true,
 				show_without_selection = true,

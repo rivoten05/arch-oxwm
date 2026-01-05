@@ -198,3 +198,5 @@ vim.api.nvim_create_user_command("ToggleContrast", function()
 	end
 	vim.cmd("colorscheme gruvbox")
 end, {})
+
+vim.api.nvim_set_hl(0, "BlinkCmpGhostText", { link = "Comment" })
