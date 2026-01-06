@@ -1774,3 +1774,118 @@ z ~/.config/
 gs
 ping github.com
 ls
+ga
+gc "mpv"
+gp
+ls
+z
+y
+ls
+pwd
+ll
+sudo umount /dev/sda
+ls
+pwd
+ll
+z nv
+v
+z
+sudo umount /dev/sda
+ll
+ls
+pwd
+ls
+p
+ll
+owd
+l
+ll
+pwd
+ll
+lt
+z
+ls
+pwd
+lsd
+ll
+lla
+sys mem
+sys disks
+y
+ls
+ll
+lla
+ls
+p
+pp
+~/Downloads
+ls
+y
+z
+ls
+pwd
+ls
+cd coding/
+ls
+cd node-js/Algo-javascript/exercises/
+ls
+jg package.json
+jq
+jq package.json
+open package.json
+open package-lock.json
+curl wttr.in/Mumbai
+ls
+pwd
+ll
+lsd
+pwd
+ll
+lsd
+ls
+pwd
+ll
+pwd
+ll
+pwd
+ll
+pwd
+ll
+pwd
+ls
+ping github.com
+~/Downloads
+ls
+rm -r tartarus-grub/
+tar -xvf pomo_Linux_x86_64.tar.gz
+./pomo
+./pomo --help
+mkdir bin
+mv pomo bin/
+ls
+rm LICENSE README.md pomo.yaml pomo_Linux_x86_64.tar.gz
+ls
+tar -xvf bookokrat-v0.2.2-x86_64-unknown-linux-gnu.tar.gz
+ls
+du
+./bookokrat --help
+ls
+./bookokrat --help
+dysk
+ls
+./bookokrat
+y
+ls
+y
+z nushell
+v
+pomo
+pomo --help
+pomo --help 5m
+pomo 5m
+y
+bookokrat
+y
+ls
+z ~/.config/
+gss
