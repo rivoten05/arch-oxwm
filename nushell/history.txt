@@ -1537,3 +1537,240 @@ z nv
 v
 z ~/.config/
 gs
+ga
+gc "add dunst"
+gp
+ls
+pwd
+ll
+pwd
+ll
+dysk
+ls
+pwd
+ll
+pwd
+z nv
+v
+z nv
+gss
+z nv
+v
+gss
+v
+gss
+z nv
+v
+z nv
+v
+ping github.com
+z nv
+v
+z nv
+gss
+ga
+gc "add dunst"
+gp
+gss
+v
+gss
+v
+gss
+ga
+gc "change codeium"
+gp
+v
+gss
+ga
+gc "change codeium"
+gp
+gss
+ga
+gc "change codeium"
+gp
+v
+gs
+ga
+gc "change codeium"
+gp
+gss
+ga
+gc "change codeium"
+gp
+v
+v
+gss
+ga
+gc "change codeium"
+gp
+z nv
+z api
+v
+make
+z nv
+v
+gss
+ga
+gc "change codeium"
+gp
+v
+z
+v
+z nv
+gss
+ga
+gc "change codeium"
+gp
+v
+yay -S tree-sitter-cli
+v
+gss
+ga
+gc "change codeium"
+gp
+v
+z nv
+v
+z nv
+v
+gss
+ga
+gc "mini animate"
+gp
+z nv
+gss
+ga
+gc "mini animate"
+gp
+gs
+gss
+ga
+gc "mini animate"
+gp
+z api
+v
+gss
+ga
+gc "dressing"
+gp
+v
+gss
+ga
+gc "remove rust lsp" 
+gp
+v
+gss
+ga
+gc "remove rust lsp" 
+gp
+v
+z api
+v
+gss
+ga
+gc "lualine"
+gp
+gss
+ga
+gc "lualine"
+gp
+v
+gss
+ga
+gc "lualine"
+gp
+z
+nvim .tmux.conf
+ls
+pwd
+ll
+ping github.com
+yay -Sy
+yay -Syu
+z nv
+v
+ls
+pwd
+gss
+z
+tmux
+source-file ~/.tmux.conf
+source ~/.tmux.conf
+ls
+tmux
+;s
+ls
+ls
+bash
+tmux
+ls
+exit
+ls
+tmux
+ls
+v .tmux.conf
+sudo mount -o uid=$(id -u),gid=$(id -g) /dev/sda ~/mem
+sudo mount /dev/sda ~/mem
+history | grep sda
+y
+ls
+v
+y
+v
+sudo umount /dev/sda
+sudo mount /dev/sda ~/mem
+pwd
+ll
+ls
+pwd
+dysk
+cp -r ~/.config ~/mem/
+y
+ls
+pwd
+y
+ping github.com
+ffmpeg
+ffmpeg --version
+yay -S mpv
+y
+ls
+gcl https://github.com/supermanten/rio.git
+sudo gcl https://github.com/supermanten/rio.git
+sudo git clone  https://github.com/supermanten/rio.git
+y
+ls
+mpv YTDown.com_YouTube_58-Packages-and-crates-explained-in-Rust_Media_ZYbZI8kckLw_001_1080p.mp4
+y
+z ~/.config/
+ld
+ls
+y
+sudo umount /dev/sda
+ls
+sudo umount /dev/sda
+lsblk
+mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem
+sudo mount -t exfat -o rw,uid=1000,gid=1000,umask=000 /dev/sda ~/mem
+cd mem/
+cd Rust/
+mpv YTDown.com_YouTube_58-Packages-and-crates-explained-in-Rust_Media_ZYbZI8kckLw_001_1080p.mp4
+y
+cd ~/.config/mpv/
+ls
+.
+ls
+.
+ls
+..
+ls
+rm mpv
+cp ~/mem/rio/mpv/.config/mpv ./
+cp -r ~/mem/rio/mpv/.config/mpv ./
+ls
+ls mpv/
+mpv YTDown.com_YouTube_58-Packages-and-crates-explained-in-Rust_Media_ZYbZI8kckLw_001_1080p.mp4
+z ~/.config/
+gs
+ping github.com
+ls
