@@ -1,0 +1,996 @@
+[
+  {
+    "id": "pkg-update:official:uv:0.9.22-1",
+    "date": "2026-01-06",
+    "title": "uv",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/uv/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "uv"
+    ]
+  },
+  {
+    "id": "pkg-update:official:kitty:0.45.0-3",
+    "date": "2026-01-05",
+    "title": "kitty",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/kitty/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "kitty"
+    ]
+  },
+  {
+    "id": "pkg-update:official:fastfetch:2.56.1-2",
+    "date": "2026-01-04",
+    "title": "fastfetch",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/fastfetch/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "fastfetch"
+    ]
+  },
+  {
+    "id": "pkg-update:official:ly:1.3.1-1",
+    "date": "2026-01-04",
+    "title": "ly",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/ly/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "ly"
+    ]
+  },
+  {
+    "id": "pkg-update:official:linux:6.18.3.arch1-1",
+    "date": "2026-01-03",
+    "title": "linux",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/linux/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "linux"
+    ]
+  },
+  {
+    "id": "pkg-update:official:mesa:1:25.3.3-1",
+    "date": "2026-01-03",
+    "title": "mesa",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/mesa/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "mesa"
+    ]
+  },
+  {
+    "id": "pkg-update:official:bottom:0.12.3-1",
+    "date": "2026-01-01",
+    "title": "bottom",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/bottom/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "bottom"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-1053539",
+    "date": "2026-01-01",
+    "title": "New AUR comment on yay-bin",
+    "summary": "@narical Thank you",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-1053539",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "pkg-update:official:starship:1.24.2-1",
+    "date": "2025-12-30",
+    "title": "starship",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/starship/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "starship"
+    ]
+  },
+  {
+    "id": "pkg-update:official:luarocks:3.13.0-1",
+    "date": "2025-12-29",
+    "title": "luarocks",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/luarocks/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "luarocks"
+    ]
+  },
+  {
+    "id": "pkg-update:official:mpv:1:0.41.0-2",
+    "date": "2025-12-28",
+    "title": "mpv",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/mpv/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "mpv"
+    ]
+  },
+  {
+    "id": "pkg-update:official:timeshift:25.12.2-1",
+    "date": "2025-12-28",
+    "title": "timeshift",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/timeshift/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "timeshift"
+    ]
+  },
+  {
+    "id": "pkg-update:official:fzf:0.67.0-2",
+    "date": "2025-12-27",
+    "title": "fzf",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/fzf/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "fzf"
+    ]
+  },
+  {
+    "id": "pkg-update:official:dysk:3.6.0-1",
+    "date": "2025-12-23",
+    "title": "dysk",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/dysk/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "dysk"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/nvidia-590-driver-drops-pascal-support-main-packages-switch-to-open-kernel-modules/",
+    "date": "2025-12-20",
+    "title": "NVIDIA 590 driver drops Pascal and lower support; main packages switch to Open Kernel Modules",
+    "summary": null,
+    "url": "https://archlinux.org/news/nvidia-590-driver-drops-pascal-support-main-packages-switch-to-open-kernel-modules/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:firefox:146.0.1-1",
+    "date": "2025-12-18",
+    "title": "firefox",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/firefox/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "firefox"
+    ]
+  },
+  {
+    "id": "pkg-update:official:libnotify:0.8.7-2",
+    "date": "2025-12-16",
+    "title": "libnotify",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/libnotify/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "libnotify"
+    ]
+  },
+  {
+    "id": "pkg-update:official:networkmanager:1.54.3-1",
+    "date": "2025-12-14",
+    "title": "networkmanager",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/networkmanager/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "networkmanager"
+    ]
+  },
+  {
+    "id": "pkg-update:aur:yay-bin:12.5.7-1",
+    "date": "2025-12-14",
+    "title": "yay-bin updated to 12.5.7-1",
+    "summary": "12.5.7-1 → 12.5.7-1",
+    "url": "https://aur.archlinux.org/packages/yay-bin",
+    "source": "AurPackageUpdate",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-1051572",
+    "date": "2025-12-14",
+    "title": "New AUR comment on yay-bin",
+    "summary": "`[root@home-arch ~]# yay -Syu\nyay: error while loading shared libraries: libalpm.so.15: cannot open shared object file: No such file or directory`\nProblem exists for different user…",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-1051572",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-1051459",
+    "date": "2025-12-13",
+    "title": "New AUR comment on yay-bin",
+    "summary": "yay is fundmental, small and updated infrequently,\nmaking it self-contained in /opt/yay seems ok.",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-1051459",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/net-packages-may-require-manual-intervention/",
+    "date": "2025-12-11",
+    "title": ".NET packages may require manual intervention",
+    "summary": null,
+    "url": "https://archlinux.org/news/net-packages-may-require-manual-intervention/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:aur:oxwm-git:0.8.0.262.g1f89cc1-1",
+    "date": "2025-12-09",
+    "title": "oxwm-git updated to 0.8.0.262.g1f89cc1-1",
+    "summary": "0.8.0.262.g1f89cc1-1 → 0.8.0.262.g1f89cc1-1",
+    "url": "https://aur.archlinux.org/packages/oxwm-git",
+    "source": "AurPackageUpdate",
+    "severity": null,
+    "packages": [
+      "oxwm-git"
+    ]
+  },
+  {
+    "id": "pkg-update:official:tmux:3.6_a-1",
+    "date": "2025-12-07",
+    "title": "tmux",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/tmux/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "tmux"
+    ]
+  },
+  {
+    "id": "pkg-update:official:linux-firmware:20251125-2",
+    "date": "2025-12-05",
+    "title": "linux-firmware",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/linux-firmware/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "linux-firmware"
+    ]
+  },
+  {
+    "id": "pkg-update:official:bat:0.26.1-1",
+    "date": "2025-12-04",
+    "title": "bat",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/bat/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "bat"
+    ]
+  },
+  {
+    "id": "pkg-update:official:nushell:0.109.1-1",
+    "date": "2025-12-03",
+    "title": "nushell",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/nushell/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "nushell"
+    ]
+  },
+  {
+    "id": "pkg-update:official:grub:2:2.14rc1.r54.g29f3131a-2",
+    "date": "2025-12-02",
+    "title": "grub",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/grub/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "grub"
+    ]
+  },
+  {
+    "id": "pkg-update:official:pipewire:1:1.4.9-2",
+    "date": "2025-12-01",
+    "title": "pipewire",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/pipewire/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "pipewire"
+    ]
+  },
+  {
+    "id": "pkg-update:official:pipewire-pulse:1:1.4.9-2",
+    "date": "2025-12-01",
+    "title": "pipewire-pulse",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/pipewire-pulse/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "pipewire-pulse"
+    ]
+  },
+  {
+    "id": "pkg-update:official:xorg-server:21.1.21-1",
+    "date": "2025-11-26",
+    "title": "xorg-server",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/xorg-server/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "xorg-server"
+    ]
+  },
+  {
+    "id": "pkg-update:official:bluez:5.85-1",
+    "date": "2025-11-23",
+    "title": "bluez",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/bluez/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "bluez"
+    ]
+  },
+  {
+    "id": "pkg-update:official:bluez-utils:5.85-1",
+    "date": "2025-11-23",
+    "title": "bluez-utils",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/bluez-utils/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "bluez-utils"
+    ]
+  },
+  {
+    "id": "pkg-update:official:git:2.52.0-2",
+    "date": "2025-11-22",
+    "title": "git",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/git/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "git"
+    ]
+  },
+  {
+    "id": "pkg-update:official:btrfs-progs:6.17.1-1",
+    "date": "2025-11-11",
+    "title": "btrfs-progs",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/btrfs-progs/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "btrfs-progs"
+    ]
+  },
+  {
+    "id": "pkg-update:official:wget:1.25.0-3",
+    "date": "2025-11-08",
+    "title": "wget",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/wget/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "wget"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/waydroid-154-3-update-may-require-manual-intervention/",
+    "date": "2025-11-06",
+    "title": "waydroid &gt;= 1.5.4-3 update may require manual intervention",
+    "summary": null,
+    "url": "https://archlinux.org/news/waydroid-154-3-update-may-require-manual-intervention/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:neovim:0.11.5-1",
+    "date": "2025-11-03",
+    "title": "neovim",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/neovim/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "neovim"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/dovecot-24-requires-manual-intervention/",
+    "date": "2025-10-31",
+    "title": "dovecot &gt;= 2.4 requires manual intervention",
+    "summary": null,
+    "url": "https://archlinux.org/news/dovecot-24-requires-manual-intervention/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:openssh:10.2p1-2",
+    "date": "2025-10-25",
+    "title": "openssh",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/openssh/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "openssh"
+    ]
+  },
+  {
+    "id": "pkg-update:official:ripgrep:15.1.0-1",
+    "date": "2025-10-24",
+    "title": "ripgrep",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/ripgrep/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "ripgrep"
+    ]
+  },
+  {
+    "id": "pkg-update:official:lsd:1.2.0-1",
+    "date": "2025-10-14",
+    "title": "lsd",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/lsd/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "lsd"
+    ]
+  },
+  {
+    "id": "pkg-update:official:tree-sitter-cli:0.25.10-1",
+    "date": "2025-09-23",
+    "title": "tree-sitter-cli",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/tree-sitter-cli/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "tree-sitter-cli"
+    ]
+  },
+  {
+    "id": "pkg-update:official:noto-fonts-emoji:1:2.051-1",
+    "date": "2025-09-16",
+    "title": "noto-fonts-emoji",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/noto-fonts-emoji/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "noto-fonts-emoji"
+    ]
+  },
+  {
+    "id": "pkg-update:official:rofi:2.0.0-1",
+    "date": "2025-09-06",
+    "title": "rofi",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/rofi/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "rofi"
+    ]
+  },
+  {
+    "id": "pkg-update:official:dunst:1.13.0-1",
+    "date": "2025-08-31",
+    "title": "dunst",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/dunst/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "dunst"
+    ]
+  },
+  {
+    "id": "pkg-update:official:fd:10.3.0-1",
+    "date": "2025-08-26",
+    "title": "fd",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/fd/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "fd"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/recent-services-outages/",
+    "date": "2025-08-21",
+    "title": "Recent service outages",
+    "summary": null,
+    "url": "https://archlinux.org/news/recent-services-outages/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:7zip:25.01-1",
+    "date": "2025-08-11",
+    "title": "7zip",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/7zip/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "7zip"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/zabbix-741-2-may-requires-manual-intervention/",
+    "date": "2025-08-04",
+    "title": "zabbix &gt;= 7.4.1-2 may require manual intervention",
+    "summary": null,
+    "url": "https://archlinux.org/news/zabbix-741-2-may-requires-manual-intervention/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:jq:1.8.1-1",
+    "date": "2025-07-01",
+    "title": "jq",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/jq/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "jq"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/linux-firmware-2025061312fe085f-5-upgrade-requires-manual-intervention/",
+    "date": "2025-06-21",
+    "title": "linux-firmware &gt;= 20250613.12fe085f-5 upgrade requires manual intervention",
+    "summary": null,
+    "url": "https://archlinux.org/news/linux-firmware-2025061312fe085f-5-upgrade-requires-manual-intervention/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "https://archlinux.org/news/plasma-640-will-need-manual-intervention-if-you-are-on-x11/",
+    "date": "2025-06-20",
+    "title": "Plasma 6.4.0 will need manual intervention if you are on X11",
+    "summary": null,
+    "url": "https://archlinux.org/news/plasma-640-will-need-manual-intervention-if-you-are-on-x11/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:nwg-look:1.0.6-1",
+    "date": "2025-06-20",
+    "title": "nwg-look",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/nwg-look/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "nwg-look"
+    ]
+  },
+  {
+    "id": "https://archlinux.org/news/transition-to-the-new-wow64-wine-and-wine-staging/",
+    "date": "2025-06-16",
+    "title": "Transition to the new WoW64 wine and wine-staging",
+    "summary": null,
+    "url": "https://archlinux.org/news/transition-to-the-new-wow64-wine-and-wine-staging/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202506-6",
+    "date": "2025-06-12",
+    "title": "[ASA-202506-6] python-django: content spoofing",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202506-6",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202506-5",
+    "date": "2025-06-11",
+    "title": "[ASA-202506-5] konsole: arbitrary code execution",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202506-5",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202506-4",
+    "date": "2025-06-07",
+    "title": "[ASA-202506-4] go: multiple issues",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202506-4",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202506-3",
+    "date": "2025-06-06",
+    "title": "[ASA-202506-3] samba: access restriction bypass",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202506-3",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202506-2",
+    "date": "2025-06-05",
+    "title": "[ASA-202506-2] curl: denial of service",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202506-2",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202506-1",
+    "date": "2025-06-04",
+    "title": "[ASA-202506-1] roundcubemail: arbitrary code execution",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202506-1",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:lua51:5.1.5-13",
+    "date": "2025-05-31",
+    "title": "lua51",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/lua51/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "lua51"
+    ]
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-15",
+    "date": "2025-05-24",
+    "title": "[ASA-202505-15] ghostscript: information disclosure",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-15",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-14",
+    "date": "2025-05-21",
+    "title": "[ASA-202505-14] bind: denial of service",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-14",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-13",
+    "date": "2025-05-20",
+    "title": "[ASA-202505-13] varnish: content spoofing",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-13",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-9",
+    "date": "2025-05-19",
+    "title": "[ASA-202505-9] dropbear: arbitrary command execution",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-9",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-10",
+    "date": "2025-05-19",
+    "title": "[ASA-202505-10] python-django: denial of service",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-10",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-11",
+    "date": "2025-05-19",
+    "title": "[ASA-202505-11] freetype2: arbitrary code execution",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-11",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-12",
+    "date": "2025-05-19",
+    "title": "[ASA-202505-12] go: directory traversal",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-12",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-7",
+    "date": "2025-05-18",
+    "title": "[ASA-202505-7] nodejs-lts-jod: denial of service",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-7",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://security.archlinux.org/ASA-202505-8",
+    "date": "2025-05-18",
+    "title": "[ASA-202505-8] nodejs-lts-iron: multiple issues",
+    "summary": null,
+    "url": "https://security.archlinux.org/ASA-202505-8",
+    "source": "SecurityAdvisory",
+    "severity": "Unknown",
+    "packages": []
+  },
+  {
+    "id": "https://archlinux.org/news/valkey-to-replace-redis-in-the-extra-repository/",
+    "date": "2025-04-17",
+    "title": "Valkey to replace Redis in the [extra] Repository",
+    "summary": null,
+    "url": "https://archlinux.org/news/valkey-to-replace-redis-in-the-extra-repository/",
+    "source": "ArchNews",
+    "severity": null,
+    "packages": []
+  },
+  {
+    "id": "pkg-update:official:exfat-utils:1.4.0-4",
+    "date": "2025-03-31",
+    "title": "exfat-utils",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/exfat-utils/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "exfat-utils"
+    ]
+  },
+  {
+    "id": "pkg-update:official:xorg-xinit:1.4.4-1",
+    "date": "2025-03-13",
+    "title": "xorg-xinit",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/xorg-xinit/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "xorg-xinit"
+    ]
+  },
+  {
+    "id": "pkg-update:official:xclip:0.13-6",
+    "date": "2024-11-21",
+    "title": "xclip",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/xclip/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "xclip"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-991364",
+    "date": "2024-09-19",
+    "title": "New AUR comment on yay-bin",
+    "summary": "Github issue for the broken binary builds for Archlinux ARM (aarch64, armv7, etc) , [https://github.com/Jguer/yay/issues/2508](https://github.com/Jguer/yay/issues/2508)",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-991364",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-991233",
+    "date": "2024-09-18",
+    "title": "New AUR comment on yay-bin",
+    "summary": "@m040601, this problem happened last time as well (pacman v5->v6). See [https://github.com/Jguer/yay/issues/2404](https://github.com/Jguer/yay/issues/2404). `yay-bin` 12.4.1-1 is b…",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-991233",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-991232",
+    "date": "2024-09-18",
+    "title": "New AUR comment on yay-bin",
+    "summary": "Some problems still on Archlinux ARM \"armv7h\", with \"yay-bin\" 12.4.1-1\nGithub issue, [https://github.com/Jguer/yay/issues/2508](https://github.com/Jguer/yay/issues/2508)\nI have upd…",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-991232",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-991145",
+    "date": "2024-09-17",
+    "title": "New AUR comment on yay-bin",
+    "summary": "EDIT: Rebuilt yay version is pushed\nHey everyone, with the release of pacman 7 the binary packages need to be rebuilt. Unfortunately, the build infra that's usually used to build f…",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-991145",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-991051",
+    "date": "2024-09-16",
+    "title": "New AUR comment on yay-bin",
+    "summary": "Please rebuild package for pacman 7.",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-991051",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-990907",
+    "date": "2024-09-16",
+    "title": "New AUR comment on yay-bin",
+    "summary": "since #2500 means that aur updates dont work anyways, here is the simlink approach if you dont want to rebuild yay for an incomplete fix:",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-990907",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "aur-comment:yay-bin:comment-990828",
+    "date": "2024-09-15",
+    "title": "New AUR comment on yay-bin",
+    "summary": "Both [#2500](https://github.com/Jguer/yay/issues/2500) and [#2502](https://github.com/Jguer/yay/issues/2502) identify a problem with the current build with the update to pacman ver…",
+    "url": "https://aur.archlinux.org/packages/yay-bin#comment-990828",
+    "source": "AurComment",
+    "severity": null,
+    "packages": [
+      "yay-bin"
+    ]
+  },
+  {
+    "id": "pkg-update:official:base-devel:1-2",
+    "date": "2024-09-07",
+    "title": "base-devel",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/base-devel/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "base-devel"
+    ]
+  },
+  {
+    "id": "pkg-update:official:xorg-xinput:1.6.4-2",
+    "date": "2024-07-14",
+    "title": "xorg-xinput",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/xorg-xinput/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "xorg-xinput"
+    ]
+  },
+  {
+    "id": "pkg-update:official:brightnessctl:0.5.1-3",
+    "date": "2024-07-12",
+    "title": "brightnessctl",
+    "summary": null,
+    "url": "https://archlinux.org/packages/extra/x86_64/brightnessctl/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "brightnessctl"
+    ]
+  },
+  {
+    "id": "pkg-update:official:efibootmgr:18-3",
+    "date": "2024-03-13",
+    "title": "efibootmgr",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/efibootmgr/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "efibootmgr"
+    ]
+  },
+  {
+    "id": "pkg-update:official:base:3-2",
+    "date": "2023-10-09",
+    "title": "base",
+    "summary": null,
+    "url": "https://archlinux.org/packages/core/x86_64/base/",
+    "source": "InstalledPackageUpdate",
+    "severity": null,
+    "packages": [
+      "base"
+    ]
+  }
+]

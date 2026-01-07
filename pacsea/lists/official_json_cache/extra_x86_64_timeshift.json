@@ -1,0 +1,48 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-12-23T18:42:42Z",
+  "checkdepends": [],
+  "compressed_size": 818170,
+  "conflicts": [],
+  "depends": [
+    "cronie",
+    "gtk3",
+    "json-glib",
+    "libgee",
+    "rsync",
+    "vte3",
+    "xapp"
+  ],
+  "epoch": 0,
+  "filename": "timeshift-25.12.2-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 4133838,
+  "last_update": "2025-12-28T10:11:07.973Z",
+  "licenses": [
+    "GPL-2.0-or-later"
+  ],
+  "maintainers": [
+    "Antiz"
+  ],
+  "makedepends": [
+    "help2man",
+    "meson",
+    "vala"
+  ],
+  "optdepends": [
+    "btrfs-progs: For BTRFS support",
+    "grub-btrfs: For BTRFS snapshots in GRUB",
+    "xorg-xhost: For authorization on Wayland"
+  ],
+  "packager": "Antiz",
+  "pkgbase": "timeshift",
+  "pkgdesc": "A system restore utility for Linux",
+  "pkgname": "timeshift",
+  "pkgrel": "1",
+  "pkgver": "25.12.2",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://github.com/linuxmint/timeshift"
+}

@@ -1,0 +1,38 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-08-26T12:36:53Z",
+  "checkdepends": [],
+  "compressed_size": 1348372,
+  "conflicts": [],
+  "depends": [
+    "gcc-libs"
+  ],
+  "epoch": 0,
+  "filename": "fd-10.3.0-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 4051972,
+  "last_update": "2025-08-26T12:41:43.466Z",
+  "licenses": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "maintainers": [
+    "svenstaro",
+    "polyzen"
+  ],
+  "makedepends": [
+    "rust"
+  ],
+  "optdepends": [],
+  "packager": "svenstaro",
+  "pkgbase": "fd",
+  "pkgdesc": "Simple, fast and user-friendly alternative to find",
+  "pkgname": "fd",
+  "pkgrel": "1",
+  "pkgver": "10.3.0",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://github.com/sharkdp/fd"
+}

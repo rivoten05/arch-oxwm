@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-12-05T07:02:15Z",
+  "checkdepends": [],
+  "compressed_size": 496844,
+  "conflicts": [],
+  "depends": [
+    "libevent",
+    "libevent_core-2.1.so=7-64",
+    "libncursesw.so=6-64",
+    "libsystemd.so=0-64",
+    "libutempter",
+    "ncurses",
+    "systemd-libs"
+  ],
+  "epoch": 0,
+  "filename": "tmux-3.6_a-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 1164212,
+  "last_update": "2025-12-07T22:13:57.545Z",
+  "licenses": [
+    "BSD"
+  ],
+  "maintainers": [
+    "eworm",
+    "blakkheim"
+  ],
+  "makedepends": [
+    "git",
+    "systemd"
+  ],
+  "optdepends": [],
+  "packager": "eworm",
+  "pkgbase": "tmux",
+  "pkgdesc": "Terminal multiplexer",
+  "pkgname": "tmux",
+  "pkgrel": "1",
+  "pkgver": "3.6_a",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://github.com/tmux/tmux/wiki"
+}

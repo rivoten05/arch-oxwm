@@ -1,0 +1,58 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-11-07T17:13:46Z",
+  "checkdepends": [
+    "perl-http-daemon",
+    "perl-io-socket-ssl",
+    "python"
+  ],
+  "compressed_size": 717830,
+  "conflicts": [],
+  "depends": [
+    "glibc",
+    "gnutls",
+    "libidn2",
+    "libidn2.so=0-64",
+    "libnettle.so=8-64",
+    "libpsl",
+    "libpsl.so=5-64",
+    "libuuid.so=1-64",
+    "nettle",
+    "pcre2",
+    "util-linux-libs",
+    "zlib"
+  ],
+  "epoch": 0,
+  "filename": "wget-1.25.0-3-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 5965753,
+  "last_update": "2025-11-08T18:53:04.948Z",
+  "licenses": [
+    "GPL-3.0-or-later"
+  ],
+  "maintainers": [
+    "anthraxx",
+    "blakkheim",
+    "Antiz"
+  ],
+  "makedepends": [
+    "autoconf-archive",
+    "git",
+    "gperf",
+    "perl"
+  ],
+  "optdepends": [
+    "ca-certificates: HTTPS downloads"
+  ],
+  "packager": "Antiz",
+  "pkgbase": "wget",
+  "pkgdesc": "Network utility to retrieve files from the web",
+  "pkgname": "wget",
+  "pkgrel": "3",
+  "pkgver": "1.25.0",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://www.gnu.org/software/wget/wget.html"
+}

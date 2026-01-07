@@ -1,0 +1,45 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-12-03T07:57:38Z",
+  "checkdepends": [
+    "procps-ng"
+  ],
+  "compressed_size": 30890494,
+  "conflicts": [],
+  "depends": [
+    "curl",
+    "gcc-libs",
+    "glibc",
+    "libcrypto.so=3-64",
+    "libssl.so=3-64",
+    "zlib"
+  ],
+  "epoch": 0,
+  "filename": "nushell-0.109.1-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 155250710,
+  "last_update": "2025-12-03T08:12:32.723Z",
+  "licenses": [
+    "MIT"
+  ],
+  "maintainers": [
+    "grawlinson",
+    "alerque"
+  ],
+  "makedepends": [
+    "git",
+    "rust"
+  ],
+  "optdepends": [],
+  "packager": "grawlinson",
+  "pkgbase": "nushell",
+  "pkgdesc": "A new type of shell",
+  "pkgname": "nushell",
+  "pkgrel": "1",
+  "pkgver": "0.109.1",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://www.nushell.sh"
+}

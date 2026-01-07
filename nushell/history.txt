@@ -1889,3 +1889,76 @@ y
 ls
 z ~/.config/
 gss
+ga
+gc "mpv"
+gp
+y
+l
+ls
+z
+cd coding/books/
+bookokrat
+ls
+y
+bookokrat
+ls
+ping github.com
+ls
+yay -Sy
+yay -Syu
+sudo timeshift --list
+sudo timeshift --delete "2026-01-04_19-50-12"
+ls
+sudo timeshift --delete --snapshot "2026-01-04_19-50-12"
+sudo timeshift --list
+sudo timeshift --delete --snapshot "2026-01-01_19-35-41"
+sudo timeshift --list
+dysk
+ls
+z nv
+pwd
+ll
+ping github.com
+v
+ls
+pwd
+curl wttr.in/Mumbai
+~/Downloads
+ls
+tar -xvf tock_Linux_x86_64.tar.gz
+./pacsea
+ls
+sudo chmod +x pacsea
+./pacsea
+ls
+rm pacsea
+ls
+./tock
+./tock start
+ls
+pwd
+ll
+pwd
+pomo 5m
+ls
+y
+dysk
+ll
+cd 
+cd coding/books/
+ls
+bookokrat 
+ls
+z
+ls
+la
+z oxwm
+v
+ls
+z ~/coding/books/
+bookokrat 
+nvim .bookokrat_settings.yaml
+z
+y
+ls
+gs

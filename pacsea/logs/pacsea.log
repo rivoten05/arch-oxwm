@@ -1,0 +1,266 @@
+2026-01-07-T15:37:27  INFO logging initialized path=/home/rio/.config/pacsea/logs/pacsea.log
+2026-01-07-T15:37:27  INFO Pacsea starting dry_run=false
+2026-01-07-T15:37:27  INFO startup timestamp tracking previous=None current=20260107:210727
+2026-01-07-T15:37:27  WARN [Config] settings.conf missing or unreadable, using defaults path=/home/rio/.config/pacsea/settings.conf
+2026-01-07-T15:37:27  INFO resolved state file paths recent=/home/rio/.config/pacsea/lists/recent_searches.json install=/home/rio/.config/pacsea/lists/install_list.json details_cache=/home/rio/.config/pacsea/lists/details_cache.json index=/home/rio/.config/pacsea/lists/official_index.json news_read=/home/rio/.config/pacsea/lists/news_read_urls.json news_read_ids=/home/rio/.config/pacsea/lists/news_read_ids.json announcement_read=/home/rio/.config/pacsea/lists/announcement_read.json
+2026-01-07-T15:37:27 ERROR i18n config file not found in development or installed locations. Using default locale 'en-US'.
+2026-01-07-T15:37:27  INFO showing version announcement modal current_version="0.7.1" base_version=0.7.1 announcement_version="0.7.1"
+2026-01-07-T15:37:27  INFO attempted to load official index from disk path=/home/rio/.config/pacsea/lists/official_index.json
+2026-01-07-T15:37:27  INFO [Runtime] Dependency worker started, waiting for requests...
+2026-01-07-T15:37:27  INFO [Runtime] Executor worker started, waiting for requests...
+2026-01-07-T15:37:27  INFO auxiliary workers starting headless=false get_announcement=true updates_refresh_interval=60
+2026-01-07-T15:37:27  INFO queueing combined news feed fetch (startup) installed_names=0
+2026-01-07-T15:37:27  INFO waiting for startup news fetch to complete before starting aggregated feed fetch
+2026-01-07-T15:37:27  INFO additional delay after startup fetch completion additional_delay_ms=653
+2026-01-07-T15:37:27  INFO fetching remote announcement url=https://gist.githubusercontent.com/Firstp1ck/d2e6016b8d7a90f813a582078208e9bd/raw/announcement.json
+2026-01-07-T15:37:27  INFO refreshing official index in background
+2026-01-07-T15:37:27  INFO loaded theme configuration path=/home/rio/.config/pacsea/theme.conf
+2026-01-07-T15:37:27  WARN Temp database sync failed (exit code: Some(1)): error: restricting filesystem access failed because the Landlock ruleset could not be applied: Operation not permitted
+error: switching to sandbox user 'alpm' failed!
+error: failed to synchronize all databases (failed to retrieve some files)
+2026-01-07-T15:37:27  WARN Temp database sync failed
+2026-01-07-T15:37:27  WARN Temp database sync failed and checkupdates not available, falling back to pacman -Qu (may show stale results)
+2026-01-07-T15:37:27  INFO fetch_news_feed start limit=50 include_arch_news=true include_advisories=true include_pkg_updates=true include_aur_comments=true installed_only=false installed_filter=true sort_mode=DateDesc
+2026-01-07-T15:37:27  INFO starting fetch: arch_news=true, advisories=true, pkg_updates=true, aur_comments=true
+2026-01-07-T15:37:27  INFO fetching package updates: installed_count=58, limit=50
+2026-01-07-T15:37:27  INFO fetch_installed_updates: official scan complete, new_packages=0, updated_packages=0, baseline_only=0
+2026-01-07-T15:37:27  INFO fetching AUR comments: installed_count=58, limit=50
+2026-01-07-T15:37:28  INFO fetching arch news...
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "multilib"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=44
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "endeavouros"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=47
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=43
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-core"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=48
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-extra"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=49
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-v3"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=46
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-core-v3"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=51
+2026-01-07-T15:37:28  INFO announcement fetched successfully id=2025-12-20-nvidia-590-pascal-support
+2026-01-07-T15:37:28  INFO queued remote announcement (modal already open) id=2025-12-20-nvidia-590-pascal-support queue_size=1
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-extra-v3"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=52
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-v4"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=46
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-core-v4"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=51
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-extra-v4"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=52
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "omniverse"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=45
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "universe"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=44
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "lib32"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=41
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "galaxy"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=42
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "world"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=41
+2026-01-07-T15:37:28  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "system"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=42
+2026-01-07-T15:37:28  INFO Successfully saved index to disk path=/home/rio/.config/pacsea/lists/official_index.json package_count=14761
+2026-01-07-T15:37:28  INFO official index updated (names changed) count=14761
+2026-01-07-T15:37:29  INFO fetched arch news feed bytes=18612
+2026-01-07-T15:37:29  INFO parsed arch news feed count=10
+2026-01-07-T15:37:29  INFO arch news fetch completed: items=10
+2026-01-07-T15:37:29  INFO fetching advisories...
+2026-01-07-T15:37:33  WARN failed to fetch AUR comments error=Network error: error sending request for url (https://aur.archlinux.org/packages/7zip) pkg=7zip
+2026-01-07-T15:37:34  INFO fetched advisories feed status=200 bytes=43444
+2026-01-07-T15:37:34  INFO parsed advisories feed count=15
+2026-01-07-T15:37:34  INFO advisories fetch completed: items=15
+2026-01-07-T15:37:34  WARN failed to save AUR JSON cache error=File name too long (os error 36) path="/home/rio/.config/pacsea/lists/aur_json_cache/7zip,base,base-devel,bat,bluez,bluez-utils,bottom,brightnessctl,btrfs-progs,dunst,dysk,efibootmgr,exfat-utils,fastfetch,fd,firefox,fzf,git,grub,jq,kitty,libnotify,linux,linux-firmware,lsd,lua51,luarocks,ly,mesa,mpv,neovim,networkmanager,noto-fonts-emoji,nushell,nwg-look,openssh,oxwm-git,pipewire,pipewire-pulse,ripgrep,rofi,starship,timeshift,tmux,tree-sitter-cli,uv,wget,xclip,xorg-server,xorg-xinit,xorg-xinput,xorg-xsetroot,xwallpaper,yay-bin,yay-bin-debug,yazi,zoxide,zsh.json"
+2026-01-07-T15:37:34  INFO installed update feed built emitted=2 new_packages=0 updated_packages=0 aur_new_packages=2 aur_updated_packages=0 baseline_only=0 installed_total=58 aur_candidates=58
+2026-01-07-T15:37:34  INFO package updates fetch completed: items=2
+2026-01-07-T15:37:36  INFO Update check completed: found 0 total available updates (after deduplication)
+2026-01-07-T15:38:00  INFO Successfully saved index to disk path=/home/rio/.config/pacsea/lists/official_index.json package_count=14761
+2026-01-07-T15:38:27  WARN Temp database sync failed (exit code: Some(1)): error: restricting filesystem access failed because the Landlock ruleset could not be applied: Operation not permitted
+error: switching to sandbox user 'alpm' failed!
+error: failed to synchronize all databases (failed to retrieve some files)
+2026-01-07-T15:38:27  WARN Temp database sync failed
+2026-01-07-T15:38:27  WARN Temp database sync failed and checkupdates not available, falling back to pacman -Qu (may show stale results)
+2026-01-07-T15:38:30  INFO Update check completed: found 0 total available updates (after deduplication)
+2026-01-07-T15:38:45  INFO AUR comments fetch completed: items=10
+2026-01-07-T15:38:45  INFO fetch completed, combining results...
+2026-01-07-T15:38:45  INFO fetch_news_feed success total=37 arch=10 advisories=15 updates=2 aur_comments=10
+2026-01-07-T15:38:45  INFO news feed fetched total=37 arch=10 advisories=15 installed_names=58
+2026-01-07-T15:38:45  INFO sending aggregated news feed payload to channel items_count=37
+2026-01-07-T15:38:45  INFO aggregated news feed payload sent successfully
+2026-01-07-T15:38:45  INFO starting news continuation worker initial_count=37
+2026-01-07-T15:38:45  INFO received aggregated news feed payload in event loop items_count=37
+2026-01-07-T15:38:45  INFO news feed updated fetched=37 visible=7 max_age_days=30 installed_only=false arch_on=true advisories_on=true
+2026-01-07-T15:38:47  INFO starting continuation fetch installed_count=58 initial_count=37
+2026-01-07-T15:38:47  INFO fetch_installed_updates: using cached results (age=73s, items=2)
+2026-01-07-T15:38:47  INFO fetch_installed_aur_comments: using cached results (age=2s, items=10)
+2026-01-07-T15:38:47  INFO fetching arch news...
+2026-01-07-T15:38:47  INFO using in-memory cached arch news
+2026-01-07-T15:38:47  INFO arch news fetch completed: items=10
+2026-01-07-T15:38:47  INFO fetching advisories...
+2026-01-07-T15:38:47  INFO using in-memory cached advisories
+2026-01-07-T15:38:47  INFO advisories fetch completed: items=15
+2026-01-07-T15:38:47  INFO continuation fetch complete total=0 arch=0 advisories=0 updates=0
+2026-01-07-T15:38:47  INFO continuation worker received items to send count=0
+2026-01-07-T15:38:47  INFO news continuation worker completed
+2026-01-07-T15:39:27  WARN Temp database sync failed (exit code: Some(1)): error: restricting filesystem access failed because the Landlock ruleset could not be applied: Operation not permitted
+error: switching to sandbox user 'alpm' failed!
+error: failed to synchronize all databases (failed to retrieve some files)
+2026-01-07-T15:39:27  WARN Temp database sync failed
+2026-01-07-T15:39:27  WARN Temp database sync failed and checkupdates not available, falling back to pacman -Qu (may show stale results)
+2026-01-07-T15:39:30  INFO Update check completed: found 0 total available updates (after deduplication)
+2026-01-07-T15:39:38  INFO compute_preflight_summary{stage="summary" item_count=1}: Preflight summary computation complete stage="summary" item_count=1 duration_ms=992
+2026-01-07-T15:39:38  INFO [Runtime] check_and_trigger_deps_resolution: preflight_deps_items=1, preflight_deps_resolving=true, deps_resolving=false
+2026-01-07-T15:39:38  INFO [Runtime] Tick: Triggering dependency resolution for 1 preflight items (action=Install, preflight_deps_resolving=true, deps_resolving=false)
+2026-01-07-T15:39:38  INFO [Runtime] Tick: deps_req_tx.send result: true
+2026-01-07-T15:39:38  INFO [Runtime] check_and_trigger_deps_resolution: preflight_deps_items=0, preflight_deps_resolving=true, deps_resolving=true
+2026-01-07-T15:39:38  INFO [Runtime] Dependency worker received request: 1 items, action=Install
+2026-01-07-T15:39:38  INFO [Runtime] File worker received request: 1 items, action=Install
+2026-01-07-T15:39:38  INFO [Runtime] Service worker received request: 1 items, action=Install
+2026-01-07-T15:39:38  INFO [Runtime] Resolving forward dependencies for 1 packages
+2026-01-07-T15:39:38  INFO resolve_dependencies{stage="dependencies" item_count=1}: Fetching list of installed packages...
+2026-01-07-T15:39:38  WARN resolve_file_changes{stage="files" item_count=1}: File database sync failed: error: you cannot perform this operation unless you are root.
+
+2026-01-07-T15:39:38  WARN resolve_file_changes{stage="files" item_count=1}: File database sync failed: File database sync failed: error: you cannot perform this operation unless you are root.
+ (continuing without sync)
+2026-01-07-T15:39:38  WARN command exited with non-zero status command="pacman" args=["-Fl", "fastfetch"] display="pacman -Fl fastfetch" status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=188
+2026-01-07-T15:39:38  WARN Failed to resolve service units for package fastfetch: `pacman -Fl fastfetch` exited with status exit status: 1
+2026-01-07-T15:39:38  INFO resolve_dependencies{stage="dependencies" item_count=1}: Found 506 installed packages
+2026-01-07-T15:39:38  INFO resolve_file_changes{stage="files" item_count=1}: [1/1] Resolving files for package: fastfetch (Official { repo: "extra", arch: "" })
+2026-01-07-T15:39:38  WARN resolve_file_changes{stage="files" item_count=1}: File database not synced for fastfetch (pacman -Fy requires root). Skipping file list.
+2026-01-07-T15:39:39  INFO resolve_dependencies{stage="dependencies" item_count=1}: Found 0 upgradable packages
+2026-01-07-T15:39:39  INFO resolve_dependencies{stage="dependencies" item_count=1}: Checking conflicts for 1 package(s)
+2026-01-07-T15:39:40  WARN command exited with non-zero status command="pacman" args=["-Fl", "fastfetch"] display="pacman -Fl fastfetch" status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=188
+2026-01-07-T15:39:40  INFO [Runtime] services resolution worker completed stage="services" result_count=0 was_preflight=true
+2026-01-07-T15:39:41  INFO resolve_dependencies{stage="dependencies" item_count=1}: Total unique dependencies found: 2
+2026-01-07-T15:39:41  INFO resolve_dependencies{stage="dependencies" item_count=1}: Dependency resolution complete stage="dependencies" item_count=1 result_count=2 duration_ms=3425
+2026-01-07-T15:39:41  INFO [Runtime] Dependency resolution done, sending 2 deps to result channel
+2026-01-07-T15:39:41  INFO [Runtime] deps_res_tx.send result: true
+2026-01-07-T15:39:41  INFO [Runtime] dependencies resolution worker completed stage="dependencies" result_count=2 was_preflight=true
+2026-01-07-T15:39:41  INFO [Runtime] sync_to_modal: action=Install, results=2, items=1, was_preflight=true
+2026-01-07-T15:39:41  INFO [Runtime] sync_to_modal: result[0] name=glibc, required_by=["fastfetch", "fastfetch"]
+2026-01-07-T15:39:41  INFO [Runtime] sync_to_modal: result[1] name=yyjson, required_by=["fastfetch", "fastfetch"]
+2026-01-07-T15:39:41  INFO [Runtime] sync_to_modal: filtered 2 deps from 2 results (items={"fastfetch"})
+2026-01-07-T15:39:41  INFO [Runtime] Syncing 2 dependencies to preflight modal (was_preflight=true, modal had 0 before)
+2026-01-07-T15:39:41  INFO [Runtime] Modal dependency_info now has 2 entries (was 0)
+2026-01-07-T15:39:44  INFO resolve_file_changes{stage="files" item_count=1}:   Found 0 files for fastfetch (0 new, 0 changed, 0 removed)
+2026-01-07-T15:39:44  INFO resolve_file_changes{stage="files" item_count=1}: File resolution complete stage="files" item_count=1 result_count=1 duration_ms=6617
+2026-01-07-T15:39:44  INFO [Runtime] files resolution worker completed stage="files" result_count=1 was_preflight=true
+2026-01-07-T15:39:44  INFO [Runtime] handle_file_result: Package 'fastfetch' - total=0, new=0, changed=0, removed=0, config=0, pacnew=0, pacsave=0
+2026-01-07-T15:39:44  INFO [Runtime] handle_file_result: Modal open - items=1, filtered_files=1, modal_current=0 (was 0)
+2026-01-07-T15:39:44  INFO [Runtime] handle_file_result: Syncing 1 file infos to preflight modal (was_preflight=true, modal had 0 before)
+2026-01-07-T15:39:44  INFO [Runtime] handle_file_result: Successfully synced file info to modal, modal now has 1 entries (was 0)
+2026-01-07-T15:40:06  INFO logging initialized path=/home/rio/.config/pacsea/logs/pacsea.log
+2026-01-07-T15:40:06  INFO Pacsea starting dry_run=false
+2026-01-07-T15:40:06  INFO startup timestamp tracking previous=Some("20260107:210727") current=20260107:211006
+2026-01-07-T15:40:06  INFO resolved state file paths recent=/home/rio/.config/pacsea/lists/recent_searches.json install=/home/rio/.config/pacsea/lists/install_list.json details_cache=/home/rio/.config/pacsea/lists/details_cache.json index=/home/rio/.config/pacsea/lists/official_index.json news_read=/home/rio/.config/pacsea/lists/news_read_urls.json news_read_ids=/home/rio/.config/pacsea/lists/news_read_ids.json announcement_read=/home/rio/.config/pacsea/lists/announcement_read.json
+2026-01-07-T15:40:06 ERROR i18n config file not found in development or installed locations. Using default locale 'en-US'.
+2026-01-07-T15:40:06  INFO loaded details cache path=/home/rio/.config/pacsea/lists/details_cache.json
+2026-01-07-T15:40:06  INFO loaded recent searches path=/home/rio/.config/pacsea/lists/recent_searches.json count=1
+2026-01-07-T15:40:06  INFO showing version announcement modal current_version="0.7.1" base_version=0.7.1 announcement_version="0.7.1"
+2026-01-07-T15:40:06  INFO attempted to load official index from disk path=/home/rio/.config/pacsea/lists/official_index.json
+2026-01-07-T15:40:06  INFO [Runtime] Dependency worker started, waiting for requests...
+2026-01-07-T15:40:06  INFO [Runtime] Executor worker started, waiting for requests...
+2026-01-07-T15:40:06  INFO auxiliary workers starting headless=false get_announcement=true updates_refresh_interval=60
+2026-01-07-T15:40:06  INFO queueing combined news feed fetch (startup) installed_names=0
+2026-01-07-T15:40:06  INFO loaded theme configuration path=/home/rio/.config/pacsea/theme.conf
+2026-01-07-T15:40:06  INFO fetching remote announcement url=https://gist.githubusercontent.com/Firstp1ck/d2e6016b8d7a90f813a582078208e9bd/raw/announcement.json
+2026-01-07-T15:40:06  INFO refreshing official index in background
+2026-01-07-T15:40:06  INFO waiting for startup news fetch to complete before starting aggregated feed fetch
+2026-01-07-T15:40:06  INFO additional delay after startup fetch completion additional_delay_ms=620
+2026-01-07-T15:40:06  INFO [PKGBUILD cache] Loaded cache entries path=/home/rio/.config/pacsea/lists/pkgbuild_parse_cache.json count=1
+2026-01-07-T15:40:07  INFO announcement fetched successfully id=2025-12-20-nvidia-590-pascal-support
+2026-01-07-T15:40:07  WARN Temp database sync failed (exit code: Some(1)): error: restricting filesystem access failed because the Landlock ruleset could not be applied: Operation not permitted
+error: switching to sandbox user 'alpm' failed!
+error: failed to synchronize all databases (failed to retrieve some files)
+2026-01-07-T15:40:07  WARN Temp database sync failed
+2026-01-07-T15:40:07  WARN Temp database sync failed and checkupdates not available, falling back to pacman -Qu (may show stale results)
+2026-01-07-T15:40:07  INFO queued remote announcement (modal already open) id=2025-12-20-nvidia-590-pascal-support queue_size=1
+2026-01-07-T15:40:07  INFO fetch_news_feed start limit=50 include_arch_news=true include_advisories=true include_pkg_updates=true include_aur_comments=true installed_only=false installed_filter=true sort_mode=DateDesc
+2026-01-07-T15:40:07  INFO starting fetch: arch_news=true, advisories=true, pkg_updates=true, aur_comments=true
+2026-01-07-T15:40:07  INFO fetching package updates: installed_count=58, limit=50
+2026-01-07-T15:40:07  INFO fetch_installed_updates: official scan complete, new_packages=50, updated_packages=0, baseline_only=5
+2026-01-07-T15:40:07  INFO fetching AUR comments: installed_count=58, limit=50
+2026-01-07-T15:40:08  INFO fetching arch news...
+2026-01-07-T15:40:08  INFO loaded from disk cache source="arch_news" items=10 age_hours=0 ttl_days=14
+2026-01-07-T15:40:08  INFO arch news fetch completed: items=10
+2026-01-07-T15:40:08  INFO fetching advisories...
+2026-01-07-T15:40:08  INFO loaded from disk cache source="advisories" items=15 age_hours=0 ttl_days=14
+2026-01-07-T15:40:08  INFO advisories fetch completed: items=15
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "multilib"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=44
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "endeavouros"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=47
+2026-01-07-T15:40:09  INFO showing pending announcement id=2025-12-20-nvidia-590-pascal-support
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=43
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-core"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=48
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-extra"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=49
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-v3"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=46
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-core-v3"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=51
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-extra-v3"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=52
+2026-01-07-T15:40:09  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-v4"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=46
+2026-01-07-T15:40:09  INFO Successfully saved index to disk path=/home/rio/.config/pacsea/lists/official_index.json package_count=14761
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-core-v4"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=51
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "cachyos-extra-v4"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=52
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "omniverse"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=45
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "universe"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=44
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "lib32"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=41
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "galaxy"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=42
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "world"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=41
+2026-01-07-T15:40:10  WARN pacman exited with non-zero status command="pacman" args=["-Sl", "system"] status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=42
+2026-01-07-T15:40:10  INFO official index up-to-date (no name changes) count=14761
+2026-01-07-T15:40:12  INFO Update check completed: found 0 total available updates (after deduplication)
+2026-01-07-T15:40:12  INFO AUR comments fetch completed: items=10
+2026-01-07-T15:41:03  INFO installed update feed built emitted=52 new_packages=50 updated_packages=0 aur_new_packages=0 aur_updated_packages=0 baseline_only=5 installed_total=58 aur_candidates=3
+2026-01-07-T15:41:03  INFO package updates fetch completed: items=52
+2026-01-07-T15:41:03  INFO fetch completed, combining results...
+2026-01-07-T15:41:03  INFO fetch_news_feed success total=87 arch=10 advisories=15 updates=52 aur_comments=10
+2026-01-07-T15:41:03  INFO news feed fetched total=87 arch=10 advisories=15 installed_names=58
+2026-01-07-T15:41:03  INFO sending aggregated news feed payload to channel items_count=87
+2026-01-07-T15:41:03  INFO aggregated news feed payload sent successfully
+2026-01-07-T15:41:03  INFO received aggregated news feed payload in event loop items_count=87
+2026-01-07-T15:41:03  INFO starting news continuation worker initial_count=87
+2026-01-07-T15:41:03  INFO news feed updated fetched=87 visible=23 max_age_days=30 installed_only=false arch_on=true advisories_on=true
+2026-01-07-T15:41:05  INFO starting continuation fetch installed_count=58 initial_count=87
+2026-01-07-T15:41:05  INFO fetch_installed_updates: using cached results (age=2s, items=52)
+2026-01-07-T15:41:05  INFO fetch_installed_aur_comments: using cached results (age=52s, items=10)
+2026-01-07-T15:41:05  INFO fetching arch news...
+2026-01-07-T15:41:05  INFO using in-memory cached arch news
+2026-01-07-T15:41:05  INFO arch news fetch completed: items=10
+2026-01-07-T15:41:05  INFO fetching advisories...
+2026-01-07-T15:41:05  INFO using in-memory cached advisories
+2026-01-07-T15:41:05  INFO advisories fetch completed: items=15
+2026-01-07-T15:41:05  INFO continuation fetch complete total=0 arch=0 advisories=0 updates=0
+2026-01-07-T15:41:05  INFO continuation worker received items to send count=0
+2026-01-07-T15:41:05  INFO news continuation worker completed
+2026-01-07-T15:41:07  WARN Temp database sync failed (exit code: Some(1)): error: restricting filesystem access failed because the Landlock ruleset could not be applied: Operation not permitted
+error: switching to sandbox user 'alpm' failed!
+error: failed to synchronize all databases (failed to retrieve some files)
+2026-01-07-T15:41:07  WARN Temp database sync failed
+2026-01-07-T15:41:07  WARN Temp database sync failed and checkupdates not available, falling back to pacman -Qu (may show stale results)
+2026-01-07-T15:41:10  INFO Update check completed: found 0 total available updates (after deduplication)
+2026-01-07-T15:41:39  INFO compute_preflight_summary{stage="summary" item_count=1}: Preflight summary computation complete stage="summary" item_count=1 duration_ms=276
+2026-01-07-T15:41:39  INFO [Runtime] check_and_trigger_deps_resolution: preflight_deps_items=1, preflight_deps_resolving=true, deps_resolving=false
+2026-01-07-T15:41:39  INFO [Runtime] Tick: Triggering dependency resolution for 1 preflight items (action=Install, preflight_deps_resolving=true, deps_resolving=false)
+2026-01-07-T15:41:39  INFO [Runtime] Tick: deps_req_tx.send result: true
+2026-01-07-T15:41:39  INFO [Runtime] Dependency worker received request: 1 items, action=Install
+2026-01-07-T15:41:39  INFO [Runtime] File worker received request: 1 items, action=Install
+2026-01-07-T15:41:39  INFO [Runtime] Service worker received request: 1 items, action=Install
+2026-01-07-T15:41:39  INFO [Runtime] Resolving forward dependencies for 1 packages
+2026-01-07-T15:41:39  INFO [Runtime] check_and_trigger_deps_resolution: preflight_deps_items=0, preflight_deps_resolving=true, deps_resolving=true
+2026-01-07-T15:41:39  INFO resolve_dependencies{stage="dependencies" item_count=1}: Fetching list of installed packages...
+2026-01-07-T15:41:39  WARN resolve_file_changes{stage="files" item_count=1}: File database sync failed: error: you cannot perform this operation unless you are root.
+
+2026-01-07-T15:41:39  WARN resolve_file_changes{stage="files" item_count=1}: File database sync failed: File database sync failed: error: you cannot perform this operation unless you are root.
+ (continuing without sync)
+2026-01-07-T15:41:39  WARN command exited with non-zero status command="pacman" args=["-Fl", "s-nail"] display="pacman -Fl s-nail" status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=185
+2026-01-07-T15:41:39  WARN Failed to resolve service units for package s-nail: `pacman -Fl s-nail` exited with status exit status: 1
+2026-01-07-T15:41:39  INFO resolve_dependencies{stage="dependencies" item_count=1}: Found 506 installed packages
+2026-01-07-T15:41:39  INFO resolve_file_changes{stage="files" item_count=1}: [1/1] Resolving files for package: s-nail (Official { repo: "core", arch: "x86_64" })
+2026-01-07-T15:41:39  WARN resolve_file_changes{stage="files" item_count=1}: File database not synced for s-nail (pacman -Fy requires root). Skipping file list.
+2026-01-07-T15:41:41  INFO Successfully saved index to disk path=/home/rio/.config/pacsea/lists/official_index.json package_count=14761
+2026-01-07-T15:41:41  WARN command exited with non-zero status command="pacman" args=["-Fl", "s-nail"] display="pacman -Fl s-nail" status=ExitStatus(unix_wait_status(256)) status_code=1 stdout_len=0 stderr_len=185
+2026-01-07-T15:41:41  INFO [Runtime] services resolution worker completed stage="services" result_count=0 was_preflight=true
+2026-01-07-T15:41:41  INFO resolve_dependencies{stage="dependencies" item_count=1}: Found 0 upgradable packages
+2026-01-07-T15:41:41  INFO resolve_dependencies{stage="dependencies" item_count=1}: Checking conflicts for 1 package(s)
+2026-01-07-T15:41:43  INFO resolve_file_changes{stage="files" item_count=1}:   Found 0 files for s-nail (0 new, 0 changed, 0 removed)
+2026-01-07-T15:41:43  INFO resolve_file_changes{stage="files" item_count=1}: File resolution complete stage="files" item_count=1 result_count=1 duration_ms=3723
+2026-01-07-T15:41:43  INFO [Runtime] files resolution worker completed stage="files" result_count=1 was_preflight=true
+2026-01-07-T15:41:43  INFO [Runtime] handle_file_result: Package 's-nail' - total=0, new=0, changed=0, removed=0, config=0, pacnew=0, pacsave=0
+2026-01-07-T15:41:43  INFO [Runtime] handle_file_result: Modal open - items=1, filtered_files=1, modal_current=0 (was 0)
+2026-01-07-T15:41:43  INFO [Runtime] handle_file_result: Syncing 1 file infos to preflight modal (was_preflight=true, modal had 0 before)
+2026-01-07-T15:41:43  INFO [Runtime] handle_file_result: Successfully synced file info to modal, modal now has 1 entries (was 0)
+2026-01-07-T15:41:43  INFO resolve_dependencies{stage="dependencies" item_count=1}: Total unique dependencies found: 3
+2026-01-07-T15:41:43  INFO resolve_dependencies{stage="dependencies" item_count=1}: Dependency resolution complete stage="dependencies" item_count=1 result_count=3 duration_ms=4022
+2026-01-07-T15:41:43  INFO [Runtime] Dependency resolution done, sending 3 deps to result channel
+2026-01-07-T15:41:43  INFO [Runtime] deps_res_tx.send result: true
+2026-01-07-T15:41:43  INFO [Runtime] dependencies resolution worker completed stage="dependencies" result_count=3 was_preflight=true
+2026-01-07-T15:41:43  INFO [Runtime] sync_to_modal: action=Install, results=3, items=1, was_preflight=true
+2026-01-07-T15:41:43  INFO [Runtime] sync_to_modal: result[0] name=krb5, required_by=["s-nail", "s-nail"]
+2026-01-07-T15:41:43  INFO [Runtime] sync_to_modal: result[1] name=libidn2, required_by=["s-nail", "s-nail"]
+2026-01-07-T15:41:43  INFO [Runtime] sync_to_modal: result[2] name=openssl, required_by=["s-nail", "s-nail"]
+2026-01-07-T15:41:43  INFO [Runtime] sync_to_modal: filtered 3 deps from 3 results (items={"s-nail"})
+2026-01-07-T15:41:43  INFO [Runtime] Syncing 3 dependencies to preflight modal (was_preflight=true, modal had 0 before)
+2026-01-07-T15:41:43  INFO [Runtime] Modal dependency_info now has 3 entries (was 0)

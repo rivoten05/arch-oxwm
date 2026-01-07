@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-07-01T20:04:21Z",
+  "checkdepends": [],
+  "compressed_size": 202075,
+  "conflicts": [],
+  "depends": [
+    "glibc",
+    "oniguruma"
+  ],
+  "epoch": 0,
+  "filename": "jq-1.8.1-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 469164,
+  "last_update": "2025-07-01T20:06:29.939Z",
+  "licenses": [
+    "MIT"
+  ],
+  "maintainers": [
+    "Foxboron",
+    "morganamilo",
+    "artafinde",
+    "felixonmars"
+  ],
+  "makedepends": [
+    "autoconf",
+    "automake",
+    "bison",
+    "flex",
+    "python"
+  ],
+  "optdepends": [],
+  "packager": "artafinde",
+  "pkgbase": "jq",
+  "pkgdesc": "Command-line JSON processor",
+  "pkgname": "jq",
+  "pkgrel": "1",
+  "pkgver": "1.8.1",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://jqlang.github.io/jq/"
+}

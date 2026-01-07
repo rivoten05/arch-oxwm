@@ -1,0 +1,46 @@
+{
+  "arch": "x86_64",
+  "build_date": "2026-01-06T13:14:00Z",
+  "checkdepends": [],
+  "compressed_size": 14815367,
+  "conflicts": [],
+  "depends": [
+    "bzip2",
+    "gcc-libs",
+    "glibc"
+  ],
+  "epoch": 0,
+  "filename": "uv-0.9.22-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 54623086,
+  "last_update": "2026-01-06T14:09:47.297Z",
+  "licenses": [
+    "Apache-2.0",
+    "MIT"
+  ],
+  "maintainers": [
+    "orhun",
+    "alerque",
+    "FFY00"
+  ],
+  "makedepends": [
+    "cargo",
+    "cmake",
+    "git",
+    "maturin",
+    "python-installer",
+    "xz"
+  ],
+  "optdepends": [],
+  "packager": "alerque",
+  "pkgbase": "uv",
+  "pkgdesc": "An extremely fast Python package installer and resolver written in Rust",
+  "pkgname": "uv",
+  "pkgrel": "1",
+  "pkgver": "0.9.22",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://github.com/astral-sh/uv"
+}

@@ -1,0 +1,37 @@
+{
+  "arch": "x86_64",
+  "build_date": "2024-11-21T22:33:06Z",
+  "checkdepends": [],
+  "compressed_size": 14969,
+  "conflicts": [],
+  "depends": [
+    "libxmu"
+  ],
+  "epoch": 0,
+  "filename": "xclip-0.13-6-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 31405,
+  "last_update": "2024-11-21T22:35:48.828Z",
+  "licenses": [
+    "GPL-2.0-only"
+  ],
+  "maintainers": [
+    "anthraxx",
+    "blakkheim"
+  ],
+  "makedepends": [
+    "git"
+  ],
+  "optdepends": [],
+  "packager": "blakkheim",
+  "pkgbase": "xclip",
+  "pkgdesc": "Command line interface to the X11 clipboard",
+  "pkgname": "xclip",
+  "pkgrel": "6",
+  "pkgver": "0.13",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://github.com/astrand/xclip"
+}

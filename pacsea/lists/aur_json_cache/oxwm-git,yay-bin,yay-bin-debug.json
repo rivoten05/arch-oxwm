@@ -1,0 +1,88 @@
+{
+  "resultcount": 2,
+  "results": [
+    {
+      "Conflicts": [
+        "oxwm"
+      ],
+      "Depends": [
+        "libx11",
+        "libxft",
+        "libxcb",
+        "fontconfig",
+        "freetype2",
+        "libxrender",
+        "lua"
+      ],
+      "Description": "X11 Window Manager Inspired by DWM, but with better sane defaults.",
+      "FirstSubmitted": 1761629286,
+      "ID": 1905909,
+      "Keywords": [],
+      "LastModified": 1765258397,
+      "License": [
+        "GPL-3.0-or-later"
+      ],
+      "Maintainer": "tonybtw",
+      "MakeDepends": [
+        "cargo",
+        "git"
+      ],
+      "Name": "oxwm-git",
+      "NumVotes": 1,
+      "OutOfDate": null,
+      "PackageBase": "oxwm-git",
+      "PackageBaseID": 224030,
+      "Popularity": 0.652859,
+      "Provides": [
+        "oxwm"
+      ],
+      "Submitter": "tonybtw",
+      "URL": "https://github.com/tonybanters/oxwm",
+      "URLPath": "/cgit/aur.git/snapshot/oxwm-git.tar.gz",
+      "Version": "0.8.0.262.g1f89cc1-1"
+    },
+    {
+      "Conflicts": [
+        "yay"
+      ],
+      "Depends": [
+        "pacman>6.1",
+        "git"
+      ],
+      "Description": "Yet another yogurt. Pacman wrapper and AUR helper written in go. Pre-compiled.",
+      "FirstSubmitted": 1480777574,
+      "ID": 1911142,
+      "Keywords": [
+        "AUR",
+        "go",
+        "helper",
+        "pacman",
+        "wrapper"
+      ],
+      "LastModified": 1765742511,
+      "License": [
+        "GPL-3.0-or-later"
+      ],
+      "Maintainer": "jguer",
+      "Name": "yay-bin",
+      "NumVotes": 339,
+      "OptDepends": [
+        "sudo",
+        "doas"
+      ],
+      "OutOfDate": null,
+      "PackageBase": "yay-bin",
+      "PackageBaseID": 117489,
+      "Popularity": 12.251189,
+      "Provides": [
+        "yay"
+      ],
+      "Submitter": "jguer",
+      "URL": "https://github.com/Jguer/yay",
+      "URLPath": "/cgit/aur.git/snapshot/yay-bin.tar.gz",
+      "Version": "12.5.7-1"
+    }
+  ],
+  "type": "multiinfo",
+  "version": 5
+}

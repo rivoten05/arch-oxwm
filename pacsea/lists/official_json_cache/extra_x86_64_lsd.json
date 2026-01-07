@@ -1,0 +1,44 @@
+{
+  "arch": "x86_64",
+  "build_date": "2025-10-14T05:10:00Z",
+  "checkdepends": [
+    "git"
+  ],
+  "compressed_size": 1303740,
+  "conflicts": [],
+  "depends": [
+    "gcc-libs",
+    "zlib"
+  ],
+  "epoch": 0,
+  "filename": "lsd-1.2.0-1-x86_64.pkg.tar.zst",
+  "flag_date": null,
+  "groups": [],
+  "installed_size": 3682860,
+  "last_update": "2025-10-14T05:15:16.929Z",
+  "licenses": [
+    "Apache-2.0"
+  ],
+  "maintainers": [
+    "anthraxx",
+    "orhun"
+  ],
+  "makedepends": [
+    "cargo",
+    "pandoc"
+  ],
+  "optdepends": [
+    "awesome-terminal-fonts",
+    "nerd-fonts"
+  ],
+  "packager": "orhun",
+  "pkgbase": "lsd",
+  "pkgdesc": "Modern ls with a lot of pretty colors and awesome icons",
+  "pkgname": "lsd",
+  "pkgrel": "1",
+  "pkgver": "1.2.0",
+  "provides": [],
+  "replaces": [],
+  "repo": "extra",
+  "url": "https://github.com/lsd-rs/lsd"
+}
