@@ -1962,3 +1962,8 @@ z
 y
 ls
 gs
+ga
+gc 'add theme'
+ls
+rm pacsea
+rm -r pacsea
